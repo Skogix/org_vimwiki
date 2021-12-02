@@ -1,5 +1,22 @@
 = skogix org =
-== index ==
+== [[test|test]] ==
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+== [[index|index]] ==
+- [[templates/def_template.html|template]]
 - [[vimwiki|vimwiki]]
 - [[dot]]
 == web ==
@@ -12,7 +29,7 @@
 - [X] move all todo to vimwiki/dump
 - [ ] make skogix.github.io to this index
 - [ ] task terminal integration for vimwiki?
-- [ ] TODO dot
+- [ ] dot
   - [ ] vim folding
   - [ ] tmux sessions
   - [ ] tmux/vim copy
@@ -57,8 +74,9 @@
       - [ ] 802-spt.sh
     - [ ] 900-config.sh
     - [ ] 999-dump.sh
-- [ ] TODO vim
+- [ ] vim
   - [ ] telescope buffers
   - [ ] telescope jumplist
 = dump =
+
 
