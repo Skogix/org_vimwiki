@@ -8,7 +8,7 @@
 - [[https://github.com/Skogix/dev|github/skogix/dev]]
 - [[https://github.com/Skogix/org|github/skogix/org]]
 == todo ==
-- [ ] TODO move all todo to vimwiki/dump
+- [x] TODO move all todo to vimwiki/dump
 - [ ] TODO make skogix.github.io to this index
 - [ ] TODO task terminal integration for vimwiki?
 - [ ] TODO dot
@@ -60,3 +60,9 @@
   - [ ] telescope buffers
   - [ ] telescope jumplist
 = dump =
+
+
+
+
+
+testing link between skogix.github.io and vimwiki
