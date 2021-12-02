@@ -1,0 +1,13 @@
+= skogix =
+== links ==
+- [[vimwiki|vimwiki]]
+== testing ==
+- TODO test
+- TODO testheader
+  - [ ] testtodo1
+  - [ ] testtodo2
+      - testtodo2.1
+      - testtodo2.2
+[[TestPage|TestPage]]
+= dump =
+

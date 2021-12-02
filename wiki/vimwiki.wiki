@@ -1,0 +1,6 @@
+= TODO vimwiki =
+ - [ ] git init
+ - [ ] <leader>tx to telescope
+== links ==
+- [[https://vimwiki.github.io/vimwikiwiki/Tips%20and%20Snips.html|tips/snips]]
+- [[http://thedarnedestthing.com/vimwiki%20cheatsheet|cheatsheet]]
