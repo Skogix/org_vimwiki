@@ -1,4 +1,4 @@
-Vimwiki2HTML= skogix org =
+= skogix org =
 == index ==
 - [[personal|personal]]
 - [[templates/def_template.html|template]]
