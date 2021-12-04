@@ -1,4 +1,4 @@
-= [[index|Skogix]] =
+[[index|Skogix]]
 - [[personal|personal]]
 - [[vim]]
   - [[vimwiki]]
