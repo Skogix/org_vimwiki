@@ -12,7 +12,9 @@
 - [[https://github.com/Skogix/dev|github/skogix/dev]]
 - [[https://github.com/Skogix/org|github/skogix/org]]
 = dump =
-- [ ] TODO 
+- [o] TODO 
   - [X] move all todo to vimwiki/dump
   - [X] make skogix.github.io to this index
   - [ ] task terminal integration for vimwiki?
+
+...
