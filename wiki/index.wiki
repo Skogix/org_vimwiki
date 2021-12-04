@@ -1,5 +1,6 @@
 = skogix org =
 == index ==
+[[personal|personal]]
 [[templates/def_template.html|template]]
 [[vimwiki|vimwiki]]
 [[dot]]
@@ -9,37 +10,42 @@
 - [[https://github.com/Skogix/dev|github/skogix/dev]]
 - [[https://github.com/Skogix/org|github/skogix/org]]
 == todo ==
-- TODO 
+- [ ] TODO 
   - [X] move all todo to vimwiki/dump
-  - [ ] make skogix.github.io to this index
+  - [X] make skogix.github.io to this index
   - [ ] task terminal integration for vimwiki?
-  - [ ] dot
-    - [ ] vim folding
-    - [ ] tmux sessions
+  - [ ] vim
+    - [ ] telescope buffers
+    - [ ] telescope jumplist
+    - [X] vim folding
     - [ ] tmux/vim copy
-    - [ ] go over dotfiles
-      - [x] .zshrc
-      - [x] .zshrc-personal
-      - [x] .bashrc
-      - [x] .gitconfig
-      - [ ] .tmux.conf
-      - [x] .Xresources
-      - [x] .config/nvim/init.vim
-      - [x] .config/alacritty/alacritty.yml
-      - [ ] .config/i3/config
-      - [x] .config/i3/config-polybar
-      - [x] .config/i3/i3block-original
-      - [x] .config/i3/picom.conf
-      - [x] .config/user-dirs.dirs
+  - [ ] go over dotfiles
+    - [ ] .zshrc
+    - [ ] .zshrc-personal
+    - [ ] .bashrc
+    - [ ] .gitconfig
+    - [ ] .tmux.conf
+    - [ ] .Xresources
+    - [ ] .config/nvim/init.vim
+    - [ ] .config/alacritty/alacritty.yml
+    - [ ] .config/i3/config
+    - [ ] .config/i3/config-polybar
+    - [ ] .config/i3/i3block-original
+    - [ ] .config/i3/picom.conf
+    - [ ] .config/user-dirs.dirs
+  - [ ] tmux
+    - [ ] tmux/vim copy
+  - [ ] programming
+      - [ ] csharp
+      - [ ] haskell
+      - [ ] 
+  - [ ] dot
+    - [X] tmux sessions
     - [ ] install obs
     - [ ] screenshot folder
     - [ ] install xclip
     - [ ] install openshot
     - [ ] install task
-    - [ ] fsharp with coc
-      - [ ] programming
-        - [ ] csharp
-        - [ ] haskell
     - [ ] sh
       - [ ] 000-Run-Basics.sh
         - [ ] 001-init.sh
@@ -58,9 +64,7 @@
         - [ ] 802-spt.sh
       - [ ] 900-config.sh
       - [ ] 999-dump.sh
-  - [ ] vim
-    - [ ] telescope buffers
-    - [ ] telescope jumplist
+  - [ ] test
 = dump =
-
+git remove /data/docs
 
