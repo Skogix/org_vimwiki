@@ -1,9 +1,9 @@
 Vimwiki2HTML= skogix org =
 == index ==
-[[personal|personal]]
-[[templates/def_template.html|template]]
-[[vimwiki|vimwiki]]
-[[dot]]
+- [[personal|personal]]
+- [[templates/def_template.html|template]]
+- [[vimwiki|vimwiki]]
+- [[dot]]
 == web ==
 - [[https://skogix.github.io|skogix.github.io]]
 - [[https://github.com/Skogix/dot|github/skogix/dot]]
