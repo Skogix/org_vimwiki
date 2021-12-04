@@ -1,4 +1,4 @@
-= skogix org =
+Vimwiki2HTML= skogix org =
 == index ==
 [[personal|personal]]
 [[templates/def_template.html|template]]
@@ -68,4 +68,4 @@
 = dump =
 git remove /data/docs
 
-test from dot/update.sh 2 3
+test from dot/update.sh 2 3 4
