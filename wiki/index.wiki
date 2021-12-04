@@ -67,10 +67,10 @@ _*bold italic text*_
 super^script^
 sub,,script,,
 
-`#ffe119`
-`#ffe119`
-`#ffe119`
-`#ffe119`
+`#ffffff`
+`#ff0000`
+`#00ff00`
+`#0000ff`
                             = Centered =
 # Bulleted list item 1
 # the # become numbers when converted to HTML
