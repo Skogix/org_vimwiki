@@ -1,2 +1,2 @@
-= [[Personal|skogix/personal]] =
+= personal =
 - test

@@ -1,4 +1,4 @@
-= [[dot|skogix/dot]] = 
+= dot = 
 - [[installers]]
 == todo ==
 - TODO dot

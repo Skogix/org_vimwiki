@@ -1,4 +1,4 @@
-= [[installers|skogix/dot/installers]] =
+= dot/installers =
 - [ ] TODO
   - [ ] screenshot folder
   - [ ] install obs

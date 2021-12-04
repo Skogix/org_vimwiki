@@ -1,4 +1,4 @@
-= [[vim|skogix/vim]] =
+= vim =
 - [[vimwiki|vimwiki]]
 == Todo ==
 - [ ] TODO vim

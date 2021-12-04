@@ -1,4 +1,4 @@
-= [[index|skogix/vim/wiki]] =
+= vim/wiki =
 - [[templates/def_template.html|template]]
 == todo ==
  - [ ] git init
