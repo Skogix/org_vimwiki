@@ -1,4 +1,4 @@
-[[index|Skogix]]
+[[index|skogix]]
 - [[personal|personal]]
 - [[vim]]
   - [[vimwiki]]
