@@ -11,10 +11,11 @@
 - [[https://github.com/Skogix/dot|github/skogix/dot]]
 - [[https://github.com/Skogix/dev|github/skogix/dev]]
 - [[https://github.com/Skogix/org|github/skogix/org]]
-= dump =
+== dump ==
 - [o] TODO 
   - [X] move all todo to vimwiki/dump
   - [X] make skogix.github.io to this index
   - [ ] task terminal integration for vimwiki?
-
+==== theme ====
+https://github.com/a-dma/gruvbox-css/blob/master/css/gruvbox-dark-medium.css
 ...
