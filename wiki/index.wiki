@@ -2,7 +2,7 @@
 - [[personal|personal]]
 - [[vim]]
   - [[vimwiki]]
-    - [[ztemplates/def_template.html|template]]
+    - [[templates/def_template.html|template]]
 - [[dot]]
   - [[installers]]
 - [[programming]]
