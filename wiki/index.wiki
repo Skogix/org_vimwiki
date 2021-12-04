@@ -57,3 +57,20 @@ def greet(s):
 let huhu = 0
 let add a b = a + b
 }}}
+
+*bold text*
+_italic text_
+_*bold italic text*_
+*_bold italic text _*
+~~strikeout text~~
+`code (no syntax) text`
+super^script^
+sub,,script,,
+
+`#ffe119`
+`#ffe119`
+`#ffe119`
+`#ffe119`
+                            = Centered =
+# Bulleted list item 1
+# the # become numbers when converted to HTML
