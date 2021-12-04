@@ -67,5 +67,3 @@ Vimwiki2HTML= skogix org =
   - [ ] test
 = dump =
 git remove /data/docs
-
-test from dot/update.sh 2 3 4
