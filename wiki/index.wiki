@@ -1,8 +1,8 @@
-[[index|skogix]]
+= skogix =
 - [[personal|personal]]
 - [[vim]]
   - [[vimwiki]]
-    - [[templates/def_template.html|template]]
+    - [[ztemplates/def_template.html|template]]
 - [[dot]]
   - [[installers]]
 - [[programming]]
