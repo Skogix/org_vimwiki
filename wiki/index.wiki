@@ -21,10 +21,6 @@ https://github.com/a-dma/gruvbox-css/blob/master/css/gruvbox-dark-medium.css
 ...
 
 = My knowledge base =
-    * Tasks -- things to be done _yesterday_!!!
-    * Project Gutenberg -- good books are power.
-    * Scratchpad -- various temporary stuff.
-= My knowledge base =
     * [[Tasks]] -- things to be done _yesterday_!!!
     * [[Project Gutenberg]] -- good books are power.
     * Scratchpad -- various temporary stuff.
@@ -47,9 +43,17 @@ _italic text_
 def greet(s):
     print("Hello, " + s)
 }}}
-
+    test
+    test
+    monospace 
+         codeblock
 | a table          | test2             |
 |------------------|-------------------|
 | test             | huhu              |
 | hatuneosueohants | huaeotsn          |
 | test             | aheoutsnheauotnsa |
+
+{{{fsharp
+let huhu = 0
+let add a b = a + b
+}}}
