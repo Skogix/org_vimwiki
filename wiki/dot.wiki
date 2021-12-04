@@ -1,59 +1,27 @@
-= dot = 
-== index ==
-testindex
+= [[dot|skogix/dot]] = 
+- [[installers]]
 == todo ==
-- TODO test
-  - [ ] test
-== test ==
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
-- maxout
+- TODO dot
+  - [ ] go over dotfiles
+    - [ ] .zshrc
+    - [ ] .zshrc-personal
+    - [ ] .bashrc
+    - [ ] .gitconfig
+    - [ ] .tmux.conf
+    - [ ] .Xresources
+    - [ ] .config/nvim/init.vim
+    - [ ] .config/alacritty/alacritty.yml
+    - [ ] .config/i3/config
+    - [ ] .config/i3/config-polybar
+    - [ ] .config/i3/i3block-original
+    - [ ] .config/i3/picom.conf
+    - [ ] .config/user-dirs.dirs
+  - [ ] tmux
+    - [ ] tmux/vim copy
+    - [X] tmux sessions
+  - [ ] installers
+    - [ ] install obs
+    - [ ] screenshot folder
+    - [ ] install xclip
+    - [ ] install openshot
+    - [ ] install task

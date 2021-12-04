@@ -1,0 +1,8 @@
+= [[vim|skogix/vim]] =
+- [[vimwiki|vimwiki]]
+== Todo ==
+- [ ] TODO vim
+  - [ ] telescope buffers
+  - [ ] telescope jumplist
+  - [X] folding
+  - [ ] tmux/vim copy

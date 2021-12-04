@@ -1,69 +1,17 @@
-= skogix org =
-== index ==
+= [[index|Skogix]] =
 - [[personal|personal]]
-- [[templates/def_template.html|template]]
-- [[vimwiki|vimwiki]]
+- [[vim]]
+  - [[vimwiki]]
+    - [[templates/def_template.html|template]]
 - [[dot]]
+- [[programming]]
 == web ==
 - [[https://skogix.github.io|skogix.github.io]]
 - [[https://github.com/Skogix/dot|github/skogix/dot]]
 - [[https://github.com/Skogix/dev|github/skogix/dev]]
 - [[https://github.com/Skogix/org|github/skogix/org]]
-== todo ==
+= dump =
 - [ ] TODO 
   - [X] move all todo to vimwiki/dump
   - [X] make skogix.github.io to this index
   - [ ] task terminal integration for vimwiki?
-  - [ ] vim
-    - [ ] telescope buffers
-    - [ ] telescope jumplist
-    - [X] vim folding
-    - [ ] tmux/vim copy
-  - [ ] go over dotfiles
-    - [ ] .zshrc
-    - [ ] .zshrc-personal
-    - [ ] .bashrc
-    - [ ] .gitconfig
-    - [ ] .tmux.conf
-    - [ ] .Xresources
-    - [ ] .config/nvim/init.vim
-    - [ ] .config/alacritty/alacritty.yml
-    - [ ] .config/i3/config
-    - [ ] .config/i3/config-polybar
-    - [ ] .config/i3/i3block-original
-    - [ ] .config/i3/picom.conf
-    - [ ] .config/user-dirs.dirs
-  - [ ] tmux
-    - [ ] tmux/vim copy
-  - [ ] programming
-      - [ ] csharp
-      - [ ] haskell
-      - [ ] 
-  - [ ] dot
-    - [X] tmux sessions
-    - [ ] install obs
-    - [ ] screenshot folder
-    - [ ] install xclip
-    - [ ] install openshot
-    - [ ] install task
-    - [ ] sh
-      - [ ] 000-Run-Basics.sh
-        - [ ] 001-init.sh
-        - [ ] 002-update.sh
-        - [ ] 003-github.sh
-        - [ ] 004-terminal.sh
-        - [ ] 005-nvim.sh
-        - [ ] 006-dirs.sh
-      - [ ] 010-Run-Dev.sh
-        - [ ] 011-dev.sh
-        - [ ] 012-coc.sh
-      - [ ] 020-Run-Programs.sh
-        - [ ] 021-basics.sh
-      - [ ] 800-Run-Rice.sh
-        - [ ] 801-rice.sh
-        - [ ] 802-spt.sh
-      - [ ] 900-config.sh
-      - [ ] 999-dump.sh
-  - [ ] test
-= dump =
-git remove /data/docs
