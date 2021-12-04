@@ -68,3 +68,4 @@
 = dump =
 git remove /data/docs
 
+test from dot/update.sh
