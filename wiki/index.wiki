@@ -4,6 +4,7 @@
   - [[vimwiki]]
     - [[templates/def_template.html|template]]
 - [[dot]]
+  - [[installers]]
 - [[programming]]
 == web ==
 - [[https://skogix.github.io|skogix.github.io]]

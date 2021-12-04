@@ -19,9 +19,3 @@
   - [ ] tmux
     - [ ] tmux/vim copy
     - [X] tmux sessions
-  - [ ] installers
-    - [ ] install obs
-    - [ ] screenshot folder
-    - [ ] install xclip
-    - [ ] install openshot
-    - [ ] install task
