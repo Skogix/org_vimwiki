@@ -27,6 +27,10 @@ for i in range(1,5):
   print(i)
 }}}
 {{{class="prettyprint"
+for i in range(1,5):
+  print(i)
+}}}
+{{{class="prettyprint"
 let test = a
 }}}
 {{{class="prettyprint"
