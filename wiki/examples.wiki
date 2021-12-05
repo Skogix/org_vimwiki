@@ -132,3 +132,4 @@ child items (see also |g:vimwiki_listsyms|): >
     [o] -- 34-66%
     [O] -- 67-99%
     [X] -- 100%
+    
