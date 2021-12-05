@@ -3,15 +3,24 @@
     <title>%title%</title>
     <link rel="Stylesheet" type="text/css" href="%root_path%css/style.css" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- Bootstrap: Bootswatch template goes here -->
+    <link href="%root_path%css/bootstrap.min.css" rel="stylesheet"
+    media="screen" type='text/css'>
     <!-- Code Prettify -->
     <script async src="%root_path%js/code-prettify.js"></script>
+    
+    <!-- google-code-prettify -->
+    <link href='%root_path%prettify/prettify.css' rel='stylesheet' type='text/css'/>
+    <script language='javascript' src='%root_path%prettify' type='text/javascript'/>
+    <script type='text/javascript'>
+    document.addEventListener(&#39;DOMContentLoaded&#39;,function() { prettyPrint();});
+    </script>
 </head>
-<body>
+<body onload='prettyPrint()'>
     <a href="%root_path%index.html">skogix</a> |
     <a href="%root_path%vim.html">vim</a> |
     <a href="%root_path%dot.html">dot</a> |
     <a href="%root_path%programming.html">programming</a>
-    <hr>
     <hr>
     <div class="content">
     %content%
