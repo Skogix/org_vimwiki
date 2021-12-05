@@ -62,12 +62,12 @@ sub,,script,,
 | h  | >  | > | > |
 
 
-{{{class="prettyPrint" >
+{{{class="prettyPrint"
  def hello(world):
      for x in range(10):
          print("Hello {0} number {1}".format(world, x))
 }}}
-{{{class="prettyPrint" >
+{{{class="prettyPrint"
 let add a b = a + b
 }}}
 
