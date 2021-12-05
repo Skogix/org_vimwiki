@@ -17,6 +17,7 @@
 - [ ] TODO 
   - [ ] task terminal integration for vimwiki?
   - [ ] vim.calendar
+  - [ ] maybe switch to vimwiki.md?
 ----
 {{{class="prettyPrint"
  def hello(world):
