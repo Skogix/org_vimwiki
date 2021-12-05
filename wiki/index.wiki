@@ -7,6 +7,7 @@
 - [[dot]]
   - [[installers]]
 - [[programming]]
+- [[resources]]
 == web ==
 - [[https://skogix.github.io|skogix.github.io]]
 - [[https://github.com/Skogix/dot|github/skogix/dot]]
@@ -14,46 +15,5 @@
 - [[https://github.com/Skogix/org|github/skogix/org]]
 == dump ==
 - [o] TODO 
-  - [X] move all todo to vimwiki/dump
-  - [X] make skogix.github.io to this index
   - [ ] task terminal integration for vimwiki?
-==== theme ====
-https://github.com/a-dma/gruvbox-css/blob/master/css/gruvbox-dark-medium.css
-...
-
-
-{{{class="brush: python"
-for i in range(1,5):
-  print(i)
-}}}
-{{{class="prettyprint"
-for i in range(1,5):
-  print(i)
-}}}
-{{{class="prettyprint"
-let test = a
-}}}
-{{{class="prettyprint"
-Console.WriteLine("Test");
-}}}
-{{{class="prettyprint"
-let test = a
-}}}
-{{{
-testblock
-  testblock
-    testblock
-}}}
-- ...
-- ...
-- ...
-
-
-    test
-      test
-    test test                test
-{{{
-    test
-      test
-    test test                test
-}}}
+  - [ ] vim.calendar
