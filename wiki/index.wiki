@@ -14,7 +14,8 @@
 - [[https://github.com/Skogix/dev|github/skogix/dev]]
 - [[https://github.com/Skogix/org|github/skogix/org]]
 == dump ==
-- [ ] TODO 
+- [.] TODO 
+  - [X] done-test
   - [ ] task terminal integration for vimwiki?
   - [ ] vim.calendar
   - [ ] maybe switch to vimwiki.md?

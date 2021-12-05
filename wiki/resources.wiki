@@ -1,3 +1,5 @@
 = resources =
 * wiki
   * [[https://github.com/a-dma/gruvbox-css/blob/master/css/gruvbox-dark-medium.css|theme]]
+* programming
+  * [[https://exercism.org/dashboard|exercism]]
