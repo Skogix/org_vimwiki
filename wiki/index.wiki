@@ -14,6 +14,15 @@
 - [[https://github.com/Skogix/dev|github/skogix/dev]]
 - [[https://github.com/Skogix/org|github/skogix/org]]
 == dump ==
-- [o] TODO 
+- [ ] TODO 
   - [ ] task terminal integration for vimwiki?
   - [ ] vim.calendar
+----
+{{{class="prettyPrint"
+ def hello(world):
+     for x in range(10):
+         print("Hello {0} number {1}".format(world, x))
+}}}
+{{{class="prettyPrint"
+let add a b = a + b
+}}}
