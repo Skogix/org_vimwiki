@@ -26,6 +26,9 @@ https://github.com/a-dma/gruvbox-css/blob/master/css/gruvbox-dark-medium.css
 for i in range(1,5):
   print(i)
 }}}
+{{{class="prettyprint"
+let test = a
+}}}
 - ...
 - ...
 - ...
