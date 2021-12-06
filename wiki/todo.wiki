@@ -1,6 +1,6 @@
 = all | -personal due:today +PENDING =
-= all | -personal due:tomorrow +PENDING =
-== all | -personal +PENDING ==
+=== all | -personal +PENDING ===
+* [ ] test akut !!!  #1d48264a
 * [ ] vim.calendar  #1d5aadb6
 * [ ] task terminal integration for vimwiki?  #4a2efd42
 * [ ] maybe switch to vimwiki.md?  #24e1cc35
@@ -35,6 +35,7 @@
     * [ ] install obs  #af8c01e2
     * [ ] install taskwarrior  #8a033d51
     * [ ] install taskwiki  #3875bcbd
+* [ ] test  #f5035c4e
 = done | -personal +COMPLETED =
 * [X] setup taskwiki  #fb3bc936
 

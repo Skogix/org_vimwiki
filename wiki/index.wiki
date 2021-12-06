@@ -10,8 +10,7 @@
     - [[https://github.com/Skogix/dot|github/skogix/dot]]
     - [[https://github.com/Skogix/dev|github/skogix/dev]]
     - [[https://github.com/Skogix/org|github/skogix/org]]
-== dump | -personal ==
-* [X] setup taskwiki  #fb3bc936
+== dump | -personal +PENDING ===
 * [ ] test akut !!!  #1d48264a
 * [ ] maybe switch to vimwiki.md?  #24e1cc35
 * [ ] task terminal integration for vimwiki?  #4a2efd42
@@ -52,3 +51,9 @@
 * [ ] haskell  #1ec000a8
 * [ ] test  #f5035c4e
 * [ ] csharp  #e99ec09f
+=== test ===
+{{{python
+ def hello(world):
+     for x in range(10):
+         print("Hello {0} number {1}".format(world, x))
+}}}

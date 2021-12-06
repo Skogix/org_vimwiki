@@ -1,7 +1,8 @@
 = vim =
-== todo | +vim ==
+- [[http://jmcphers.github.io/articles/efficient-editing.html
+=== todo | +vim ===
+* [X] setup taskwiki  #fb3bc936
 * [ ] telescope jumplist  #59073ee5
 * [ ] tmux/vim copy  #ca814a77
 * [ ] telescope buffers  #cfc3927a
 * [ ] <leader>tx to telescope  #bc9f9c66
-* [S] setup taskwiki  #fb3bc936
