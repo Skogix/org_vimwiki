@@ -2,3 +2,15 @@
 == todo | +personal ==
 * [ ] okq8 anställningsbevis (2021-12-07)  #2679eaa2
 * [ ] maila norge (2021-12-07)  #6c1eb005
+* [ ] städa  #1dbbf14c
+    * [ ] kök  #fb6334a9
+        * [ ] diska  #ebe4316b
+        * [ ] matbord  #2a8178df
+        * [ ] spis  #de74da08
+    * [ ] hall  #43e63519
+        * [ ] datorbord  #08247876
+        * [ ] toalett  #389e77e5
+    * [ ] sovrum  #60ca650b
+        * [ ] gamla sängen  #6abfd40b
+        * [ ] kläder  #89f2694e
+        * [ ] röj  #69392723

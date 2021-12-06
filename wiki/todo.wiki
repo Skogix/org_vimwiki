@@ -1,5 +1,4 @@
-= todo =
-== all || -personal +PENDING ==
+= all | -personal +PENDING =
 * [ ] vim.calendar  #1d5aadb6
 * [ ] task terminal integration for vimwiki?  #4a2efd42
 * [ ] maybe switch to vimwiki.md?  #24e1cc35
@@ -34,6 +33,6 @@
     * [ ] install obs  #af8c01e2
     * [ ] install taskwarrior  #8a033d51
     * [ ] install taskwiki  #3875bcbd
-* [S] setup taskwiki  #fb3bc936
-== done | -personal +COMPLETED ==
+= done | -personal +COMPLETED =
+* [X] setup taskwiki  #fb3bc936
 
