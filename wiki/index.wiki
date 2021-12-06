@@ -10,10 +10,9 @@
     - [[https://github.com/Skogix/dot|github/skogix/dot]]
     - [[https://github.com/Skogix/dev|github/skogix/dev]]
     - [[https://github.com/Skogix/org|github/skogix/org]]
-== dump | ==
+== dump | -personal ==
 * [X] setup taskwiki  #fb3bc936
-* [ ] okq8 anställningsbevis (2021-12-07)  #2679eaa2
-* [ ] maila norge (2021-12-07)  #6c1eb005
+* [ ] test akut !!!  #1d48264a
 * [ ] maybe switch to vimwiki.md?  #24e1cc35
 * [ ] task terminal integration for vimwiki?  #4a2efd42
 * [ ] vim.calendar  #1d5aadb6
@@ -48,18 +47,6 @@
     * [ ] install obs  #af8c01e2
     * [ ] install taskwarrior  #8a033d51
     * [ ] install taskwiki  #3875bcbd
-* [ ] städa  #1dbbf14c
-    * [ ] kök  #fb6334a9
-        * [ ] diska  #ebe4316b
-        * [ ] matbord  #2a8178df
-        * [ ] spis  #de74da08
-    * [ ] hall  #43e63519
-        * [ ] datorbord  #08247876
-        * [ ] toalett  #389e77e5
-    * [ ] sovrum  #60ca650b
-        * [ ] kläder  #89f2694e
-        * [ ] gamla sängen  #6abfd40b
-        * [ ] röj  #69392723
 * [ ] test  #f5035c4e
 == todo | +programming +PENDING ==
 * [ ] haskell  #1ec000a8
