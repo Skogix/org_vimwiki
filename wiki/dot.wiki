@@ -1,8 +1,6 @@
 = dot =
 == todo | +dot ==
-* [X] git init  #8d403c44
 * [ ] tmux  #0eb4dfde
-    * [X] tmux sessions  #58b0e80e
     * [ ] tmux/vim copy  #75c92ca1
 * [ ] go over dotfiles  #514ea6a1
     * [ ] .config/i3/picom.conf  #78291566
@@ -18,9 +16,12 @@
     * [ ] .zshrc  #c8659101
     * [ ] .zshrc-personal  #d448070e
     * [ ] .config/nvim/init.vim  #e813d31c
-* [ ] install openshot  #3c0fa8c8
-* [ ] install pandoc  #a5e5da1c
-* [ ] install task  #662fcb61
-* [ ] install xclip  #54a39081
-* [ ] install obs  #af8c01e2
-* [ ] screenshot folder  #96ce1dfd
+* [ ] dot  #ddf99d2c
+    * [ ] install openshot  #3c0fa8c8
+    * [ ] install pandoc  #a5e5da1c
+    * [ ] install task  #662fcb61
+    * [ ] install xclip  #54a39081
+    * [ ] install obs  #af8c01e2
+    * [ ] screenshot folder  #96ce1dfd
+    * [ ] install taskwarrior  #8a033d51
+    * [ ] install taskwiki  #3875bcbd
