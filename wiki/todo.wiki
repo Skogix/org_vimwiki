@@ -1,4 +1,6 @@
-= all | -personal +PENDING =
+= all | -personal due:today +PENDING =
+= all | -personal due:tomorrow +PENDING =
+== all | -personal +PENDING ==
 * [ ] vim.calendar  #1d5aadb6
 * [ ] task terminal integration for vimwiki?  #4a2efd42
 * [ ] maybe switch to vimwiki.md?  #24e1cc35

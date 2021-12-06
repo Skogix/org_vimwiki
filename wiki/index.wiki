@@ -10,4 +10,58 @@
     - [[https://github.com/Skogix/dot|github/skogix/dot]]
     - [[https://github.com/Skogix/dev|github/skogix/dev]]
     - [[https://github.com/Skogix/org|github/skogix/org]]
-== dump | -personal +dump +PENDING ==
+== dump | ==
+* [X] setup taskwiki  #fb3bc936
+* [ ] okq8 anställningsbevis (2021-12-07)  #2679eaa2
+* [ ] maila norge (2021-12-07)  #6c1eb005
+* [ ] maybe switch to vimwiki.md?  #24e1cc35
+* [ ] task terminal integration for vimwiki?  #4a2efd42
+* [ ] vim.calendar  #1d5aadb6
+* [ ] telescope jumplist  #59073ee5
+* [ ] telescope buffers  #cfc3927a
+* [ ] tmux/vim copy  #ca814a77
+* [ ] go over dotfiles  #514ea6a1
+    * [ ] .config/alacritty/alacritty.yml  #10ac4862
+    * [ ] .zshrc  #c8659101
+    * [ ] .config/i3/picom.conf  #78291566
+    * [ ] .config/nvim/init.vim  #e813d31c
+    * [ ] .gitconfig  #d1f2a60b
+    * [ ] .config/i3/config  #39619039
+    * [ ] .config/user-dirs.dirs  #4f7b2cfd
+    * [ ] .bashrc  #d67ab426
+    * [ ] .tmux.conf  #9f526c68
+    * [ ] .config/i3/config-polybar  #30de1aef
+    * [ ] .config/i3/i3block-original  #644bf023
+    * [ ] .Xresources  #bd427df2
+    * [ ] .zshrc-personal  #d448070e
+* [ ] tmux  #0eb4dfde
+    * [ ] tmux/vim copy  #75c92ca1
+* [ ] haskell  #1ec000a8
+* [ ] <leader>tx to telescope  #bc9f9c66
+* [ ] csharp  #e99ec09f
+* [ ] dot  #ddf99d2c
+    * [ ] screenshot folder  #96ce1dfd
+    * [ ] install task  #662fcb61
+    * [ ] install xclip  #54a39081
+    * [ ] install pandoc  #a5e5da1c
+    * [ ] install openshot  #3c0fa8c8
+    * [ ] install obs  #af8c01e2
+    * [ ] install taskwarrior  #8a033d51
+    * [ ] install taskwiki  #3875bcbd
+* [ ] städa  #1dbbf14c
+    * [ ] kök  #fb6334a9
+        * [ ] diska  #ebe4316b
+        * [ ] matbord  #2a8178df
+        * [ ] spis  #de74da08
+    * [ ] hall  #43e63519
+        * [ ] datorbord  #08247876
+        * [ ] toalett  #389e77e5
+    * [ ] sovrum  #60ca650b
+        * [ ] kläder  #89f2694e
+        * [ ] gamla sängen  #6abfd40b
+        * [ ] röj  #69392723
+* [ ] test  #f5035c4e
+== todo | +programming +PENDING ==
+* [ ] haskell  #1ec000a8
+* [ ] test  #f5035c4e
+* [ ] csharp  #e99ec09f
