@@ -1,39 +1,13 @@
 = skogix =
-- [[personal|personal]]
-- [[vim]]
-  - [[vimwiki]]
-    - [[examples]]
-    - [[templates/def_template.html|template]]
-- [[dot]]
-  - [[installers]]
-- [[programming]]
-- [[resources]]
+    - [[personal]]
+    - [[resources]]
+    - [[dot]]
+    - [[vim]]
+    - [[todo]]
+    - [[programming]]
 == web ==
-- [[https://skogix.github.io|skogix.github.io]]
-- [[https://github.com/Skogix/dot|github/skogix/dot]]
-- [[https://github.com/Skogix/dev|github/skogix/dev]]
-- [[https://github.com/Skogix/org|github/skogix/org]]
+    - [[https://skogix.github.io|skogix.github.io]]
+    - [[https://github.com/Skogix/dot|github/skogix/dot]]
+    - [[https://github.com/Skogix/dev|github/skogix/dev]]
+    - [[https://github.com/Skogix/org|github/skogix/org]]
 == dump ==
-- [.] TODO 
-  - [X] done-test
-  - [ ] task terminal integration for vimwiki?
-  - [ ] vim.calendar
-  - [ ] maybe switch to vimwiki.md?
-----
-{{{class="prettyPrint"
- def hello(world):
-     for x in range(10):
-         print("Hello {0} number {1}".format(world, x))
-}}}
-{{{class="prettyPrint"
-let add a b = a + b
-}}}
-----
-{{{
- def hello(world):
-     for x in range(10):
-         print("Hello {0} number {1}".format(world, x))
-}}}
-{{{
-let add a b = a + b
-}}}

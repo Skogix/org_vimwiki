@@ -1,8 +1,26 @@
 = vim =
-- [[vimwiki|vimwiki]]
-== Todo ==
-- [ ] TODO vim
-  - [ ] telescope buffers
-  - [ ] telescope jumplist
-  - [X] folding
-  - [ ] tmux/vim copy
+== todo | +dot ==
+* [X] git init  #8d403c44
+* [ ] tmux  #0eb4dfde
+    * [X] tmux sessions  #58b0e80e
+    * [ ] tmux/vim copy  #75c92ca1
+* [ ] go over dotfiles  #514ea6a1
+    * [ ] .config/i3/picom.conf  #78291566
+    * [ ] .config/i3/config  #39619039
+    * [ ] .bashrc  #d67ab426
+    * [ ] .gitconfig  #d1f2a60b
+    * [ ] .config/i3/i3block-original  #644bf023
+    * [ ] .tmux.conf  #9f526c68
+    * [ ] .config/user-dirs.dirs  #4f7b2cfd
+    * [ ] .Xresources  #bd427df2
+    * [ ] .config/alacritty/alacritty.yml  #10ac4862
+    * [ ] .config/i3/config-polybar  #30de1aef
+    * [ ] .zshrc  #c8659101
+    * [ ] .zshrc-personal  #d448070e
+    * [ ] .config/nvim/init.vim  #e813d31c
+* [ ] install openshot  #3c0fa8c8
+* [ ] install pandoc  #a5e5da1c
+* [ ] install task  #662fcb61
+* [ ] install xclip  #54a39081
+* [ ] install obs  #af8c01e2
+* [ ] screenshot folder  #96ce1dfd

@@ -1,0 +1,52 @@
+= todo =
+== all | -personal +PENDING ==
+* [ ] vim.calendar  #1d5aadb6
+* [ ] task terminal integration for vimwiki?  #4a2efd42
+* [ ] maybe switch to vimwiki.md?  #24e1cc35
+* [ ] tmux/vim copy  #ca814a77
+* [ ] telescope jumplist  #59073ee5
+* [ ] telescope buffers  #cfc3927a
+* [ ] go over dotfiles  #514ea6a1
+    * [ ] .config/i3/config  #39619039
+    * [ ] .bashrc  #d67ab426
+    * [ ] .config/i3/i3block-original  #644bf023
+    * [ ] .config/user-dirs.dirs  #4f7b2cfd
+    * [ ] .zshrc-personal  #d448070e
+    * [ ] .config/i3/picom.conf  #78291566
+    * [ ] .gitconfig  #d1f2a60b
+    * [ ] .tmux.conf  #9f526c68
+    * [ ] .Xresources  #bd427df2
+    * [ ] .config/alacritty/alacritty.yml  #10ac4862
+    * [ ] .config/i3/config-polybar  #30de1aef
+    * [ ] .zshrc  #c8659101
+    * [ ] .config/nvim/init.vim  #e813d31c
+* [ ] tmux  #0eb4dfde
+    * [ ] tmux/vim copy  #75c92ca1
+* [ ] programming  #9d216f3b
+    * [ ] haskell  #1ec000a8
+* [ ] install task  #662fcb61
+* [ ] install xclip  #54a39081
+* [ ] <leader>tx to telescope  #bc9f9c66
+* [ ] screenshot folder  #96ce1dfd
+* [ ] install openshot  #3c0fa8c8
+* [ ] install pandoc  #a5e5da1c
+* [ ] install obs  #af8c01e2
+== done | -personal +COMPLETED ==
+* [X] test  #f7483cd4
+* [X] test  #1dd6ae4c
+* [X] test3  #817d7038
+* [X] är den auto pro:test?  #b71ad884
+* [X] testproj (2021-12-07)  #fb7ffed1
+* [X] test !! (2021-12-08)  #fbb5060c
+* [X] learn vit  #eb8eb562
+* [X] test from vimwiki  #9c33cdaf
+* [X] test2 from vimwiki  #f2cfc091
+    * [X] test2.1  #05978b77
+        * [X] test2.2  #042c0d03
+* [X] folding  #5bb65cf5
+* [X] tmux sessions  #58b0e80e
+* [X] TODO dump  #8b20c133
+    * [X] done-test  #4decd6c9
+* [X] csharp  #a3b2ea2e
+* [X] git init  #8d403c44
+* [X] empty  #a5775125

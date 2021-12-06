@@ -1,8 +1,0 @@
-= dot/installers =
-- [ ] TODO
-  - [ ] screenshot folder
-  - [ ] install obs
-  - [ ] install xclip
-  - [ ] install openshot
-  - [ ] install task
-  - [ ] install pandoc

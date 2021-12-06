@@ -1,4 +1,4 @@
-== programming ==
-- [o] TODO
-  - [X] csharp
-  - [ ] haskell
+= programming =
+== todo | +programming +PENDING ==
+* [ ] haskell  #1ec000a8
+* [ ] csharp  #e99ec09f
