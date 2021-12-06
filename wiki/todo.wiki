@@ -35,7 +35,6 @@
     * [ ] install obs  #af8c01e2
     * [ ] install taskwarrior  #8a033d51
     * [ ] install taskwiki  #3875bcbd
-* [ ] test  #f5035c4e
 = done | -personal +COMPLETED =
 * [X] setup taskwiki  #fb3bc936
 
