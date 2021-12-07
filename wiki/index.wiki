@@ -1,14 +1,9 @@
 = skogix =
-== web ==
-    * [[https://skogix.github.io|skogix.github.io]]
-    * [[https://github.com/Skogix/dot|github/skogix/dot]]
-    * [[https://github.com/Skogix/dev|github/skogix/dev]]
-    * [[https://github.com/Skogix/org|github/skogix/org]]
-= started | -personal +ACTIVE =
-* [S] setup reoccuring tasks  #64dd0fce
-= dump | +dump =
-* [S] setup reoccuring tasks  #64dd0fce
-* [ ] setup starre-layout  #5b64e4d3
+= current | -personal +ACTIVE =
+= dump | +dump +PENDING =
+
+----
+
 = Generated Links =
     - [[dot]]
     - [[index]]
@@ -17,5 +12,7 @@
     - [[resources]]
     - [[todo]]
     - [[vim]]
-    - [[vim/keybindings]]
+    - [[vim/keybindings|vim keybindings]]
     - [[vim/vimwiki]]
+    - [[linux]]
+

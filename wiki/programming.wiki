@@ -1,4 +1,4 @@
 = programming =
 == todo | +programming +PENDING ==
 * [ ] haskell  #1ec000a8
-* [ ] csharp  #e99ec09f
+* [S] csharp  #e99ec09f

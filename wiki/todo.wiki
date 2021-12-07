@@ -25,7 +25,7 @@
     * [ ] tmux/vim copy  #75c92ca1
 * [ ] haskell  #1ec000a8
 * [ ] <leader>tx to telescope  #bc9f9c66
-* [ ] csharp  #e99ec09f
+* [S] csharp  #e99ec09f
 * [ ] dot  #ddf99d2c
     * [ ] install task  #662fcb61
     * [ ] install xclip  #54a39081
@@ -41,9 +41,11 @@
         * [ ] sudo pacman -S libxinerama lib32-libxinerama ncurses lib32-ncurses opencl-icd-loader lib32-opencl-icd-loader libxslt lib32-libxslt libva lib32-libva gtk3 lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs vulkan-icd-loader lib32-vulkan-icd-loader samba dosbox cups  #31997ef6
         * [ ] https://www.gloriouseggroll.tv/how-to-get-out-of-wine-dependency-hell/  #2e57f933
         * [ ] install lutris  #78a9db17
-* [S] setup reoccuring tasks  #64dd0fce
 * [ ] setup starre-layout  #5b64e4d3
+* [ ] check picom for new windows opacity  #cdee8d31
 = done | -personal +COMPLETED =
 * [X] setup taskwiki  #fb3bc936
+* [X] setup reoccuring tasks  #64dd0fce
+* [X] checkout fish shell  #bf29f239
 === recur | +PARENT ===
 * [R] fyll i seko timrapport (2021-12-13)  #b33f4f0f

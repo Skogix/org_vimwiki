@@ -1,19 +1,22 @@
 = personal =
-=== mån | due:monday===
-* [ ] fyll i seko timrapport (2021-12-13)  #8831630a
-=== tis | due:tuesday===
-=== ons | due:wednesday===
+== idag | due:today ==
+== imorgon | due:tomorrow ==
 * [ ] okq8 anställningsbevis (2021-12-08)  #2679eaa2
 * [ ] maila norge (2021-12-08)  #6c1eb005
-=== tors | due:tuesday===
-=== fre | due:friday===
-=== lör | due:saturday===
-=== sön | due:sunday===
-=== todo | +personal ===
+* [ ] uppdatera netwic (2021-12-08)  #c8c127e5
+=== all | +personal ===
 * [ ] okq8 anställningsbevis (2021-12-08)  #2679eaa2
 * [ ] maila norge (2021-12-08)  #6c1eb005
+* [ ] uppdatera netwic (2021-12-08)  #c8c127e5
 * [ ] fyll i seko timrapport (2021-12-13)  #8831630a
 * [ ] beställ laddare till datorn  #75d0d37a
+* [ ] sök jobb  #6b418d75
+    * [ ] jobbsök 1  #5b99e393
+    * [ ] jobbsök 2  #5d901be7
+    * [ ] jobbsök 3  #63014807
+    * [ ] jobbsök 4  #c7234a2f
+    * [ ] jobbsök 5  #44e196af
+    * [ ] jobbsök 6  #7ece7f40
 * [ ] städa  #1dbbf14c
     * [ ] kök  #fb6334a9
         * [ ] diska  #ebe4316b
@@ -26,3 +29,14 @@
         * [ ] gamla sängen  #6abfd40b
         * [ ] kläder  #89f2694e
         * [ ] röj  #69392723
+=== mån | due:monday===
+* [ ] fyll i seko timrapport (2021-12-13)  #8831630a
+=== tis | due:tuesday===
+=== ons | due:wednesday===
+* [ ] okq8 anställningsbevis (2021-12-08)  #2679eaa2
+* [ ] maila norge (2021-12-08)  #6c1eb005
+* [ ] uppdatera netwic (2021-12-08)  #c8c127e5
+=== tors | due:tuesday===
+=== fre | due:friday===
+=== lör | due:saturday===
+=== sön | due:sunday===
