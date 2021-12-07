@@ -1,12 +1,21 @@
 = skogix =
-    - [[personal]]
-    - [[resources]]
-    - [[dot]]
-    - [[vim]]
-    - [[todo]]
-    - [[programming]]
 == web ==
-    - [[https://skogix.github.io|skogix.github.io]]
-    - [[https://github.com/Skogix/dot|github/skogix/dot]]
-    - [[https://github.com/Skogix/dev|github/skogix/dev]]
-    - [[https://github.com/Skogix/org|github/skogix/org]]
+    * [[https://skogix.github.io|skogix.github.io]]
+    * [[https://github.com/Skogix/dot|github/skogix/dot]]
+    * [[https://github.com/Skogix/dev|github/skogix/dev]]
+    * [[https://github.com/Skogix/org|github/skogix/org]]
+= started | -personal +ACTIVE =
+* [S] setup reoccuring tasks  #64dd0fce
+= dump | +dump =
+* [S] setup reoccuring tasks  #64dd0fce
+* [ ] setup starre-layout  #5b64e4d3
+= Generated Links =
+    - [[dot]]
+    - [[index]]
+    - [[personal]]
+    - [[programming]]
+    - [[resources]]
+    - [[todo]]
+    - [[vim]]
+    - [[vim/keybindings]]
+    - [[vim/vimwiki]]

@@ -1,4 +1,5 @@
 = vim =
+
 - [[http://jmcphers.github.io/articles/efficient-editing.html|efficient-editing]]
 === todo | +vim +PENDING ===
 * [ ] telescope jumplist  #59073ee5

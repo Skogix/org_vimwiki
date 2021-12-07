@@ -1,7 +1,19 @@
 = personal =
+=== mån | due:monday===
+* [ ] fyll i seko timrapport (2021-12-13)  #8831630a
+=== tis | due:tuesday===
+=== ons | due:wednesday===
+* [ ] okq8 anställningsbevis (2021-12-08)  #2679eaa2
+* [ ] maila norge (2021-12-08)  #6c1eb005
+=== tors | due:tuesday===
+=== fre | due:friday===
+=== lör | due:saturday===
+=== sön | due:sunday===
 === todo | +personal ===
-* [ ] okq8 anställningsbevis (2021-12-07)  #2679eaa2
-* [ ] maila norge (2021-12-07)  #6c1eb005
+* [ ] okq8 anställningsbevis (2021-12-08)  #2679eaa2
+* [ ] maila norge (2021-12-08)  #6c1eb005
+* [ ] fyll i seko timrapport (2021-12-13)  #8831630a
+* [ ] beställ laddare till datorn  #75d0d37a
 * [ ] städa  #1dbbf14c
     * [ ] kök  #fb6334a9
         * [ ] diska  #ebe4316b

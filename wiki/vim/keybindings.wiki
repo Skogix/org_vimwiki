@@ -1,0 +1,396 @@
+= vim keybindings dump =
+- s  <C-H>       * <C-G>"_c
+- n  <C-H>       * :TmuxNavigateLeft<CR>
+- s  <Tab>       * <Esc>:call UltiSnips#ExpandSnippet()<CR>
+- x  <Tab>       * :call UltiSnips#SaveLastVisualSelection()<CR>gvs
+- n  <Tab>         <Plug>(coc-cursors-position)
+- n  <NL>        * :TmuxNavigateDown<CR>
+- n  <C-K>       * :TmuxNavigateUp<CR>
+- n  <C-L>       * :TmuxNavigateRight<CR>
+- n  <C-N>       * <Cmd>Telescope file_browser<CR>
+- n  <C-P>       * <Cmd>Telescope find_files<CR>
+- s  <C-R>       * <C-G>"_c<C-R>
+- x  <C-S>         <Plug>(coc-range-select)
+- n  <C-S>         <Plug>(coc-range-select)
+- n  <C-T>repo   * <Cmd>Telescope repo list<CR>
+- n  <C-T>t      * <Cmd>Telescope find_files theme=dropdown<CR>
+- n  <C-T>       * <Cmd>Telescope<CR>
+- n  <C-\>       * :TmuxNavigatePrevious<CR>
+- n  <Space>w<Space>m   <Plug>VimwikiMakeTomorrowDiaryNote
+- n  <Space>w<Space>y   <Plug>VimwikiMakeYesterdayDiaryNote
+- n  <Space>w<Space>t   <Plug>VimwikiTabMakeDiaryNote
+- n  <Space>w<Space>w   <Plug>VimwikiMakeDiaryNote
+- n  <Space>w<Space>i   <Plug>VimwikiDiaryGenerateLinks
+- n  <Space>wi     <Plug>VimwikiDiaryIndex
+- n  <Space>ws     <Plug>VimwikiUISelect
+- n  <Space>wt     <Plug>VimwikiTabIndex
+- n  <Space>ww     <Plug>VimwikiIndex
+-    <Space><Space>   <Plug>(easymotion-prefix)
+- n  <Space>?    * :<C-U>Cheatsheet<CR>
+-    <Space>rwp    <Plug>RestoreWinPosn
+-    <Space>swp    <Plug>SaveWinPosn
+- n  <Space>wx     :call VimwikiFindIncompleteTasks()<CR>
+- n  <Space>wa     :call VimwikiFindAllIncompleteTasks()<CR>
+- n  <Space>xx   * <Plug>(lcn-hover)
+- v  <Space>/    * :call NERDComment(0,'toggle')<CR>
+- n  <Space>/    * :call NERDComment(0,'toggle')<CR>
+- n  <Space>vimrc * <Cmd>vsplit<CR><Cmd>:e ~/.config/nvim/init.vim<CR>
+- n  <Space>rr   * <Cmd>source ~/.config/nvim/init.vim<CR><Cmd>echo "Sourced vim.rc"<CR>
+- n  <Space>help * <Cmd>Telescope help_tags<CR>
+- n  <Space>p    * <Cmd>Telescope live_grep<CR>
+- n  <Space>x      <Plug>(coc-cursors-operator)
+- n  <Space>color * <Cmd>call ToggleColors()<CR>
+- n  <Space><M-CR> * <Cmd>FsiEvalBuffer<CR>
+- n  <Space>ca     <Plug>(coc-fix-current)
+-    <Space>format   <Plug>(coc-format-selected)
+- n  <Space>rn     <Cmd>:CocCommand document.renameCurrentWord<CR>
+- n  <Space>+    * <Cmd>:Telescope ultisnips<CR>
+- n  <Space>wnn  * <Cmd>:Telescope coc workspace_diagnostics<CR>
+- n  <Space>wsym * <Cmd>:Telescope coc workspace_symbols<CR>
+- n  <Space>sym  * <Cmd>:Telescope coc document_symbols<CR>
+- n  <Space>dia  * <Cmd>:Telescope coc diagnostics<CR>
+- n  <Space>imp  * <Cmd>:Telescope coc implementations<CR>
+- n  <Space>dec  * <Cmd>:Telescope coc declarations<CR>
+- n  <Space>def  * <Cmd>:Telescope coc definitions<CR>
+- n  <Space>refactor * <Plug>(coc-refactor)<CR>
+- n  <Space>ref  * <Cmd>:Telescope coc references<CR>
+- n  <Space>loc  * <Cmd>:Telescope coc locations<CR>
+- n  <Space>tele * <Cmd>:Telescope commands<CR>
+- n  <Space>coc  * <Cmd>:Telescope coc commands<CR>
+- n  <Space>N      <Plug>(coc-diagnostic-prev)
+- n  <Space>n      <Plug>(coc-diagnostic-next)
+- o  %             <Plug>(MatchitOperationForward)
+- x  %             <Plug>(MatchitVisualForward)
+- n  %             <Plug>(MatchitNormalForward)
+- n  H             <Cmd>bprev<CR>
+- n  L             <Cmd>bnext<CR>
+- n  Y           * y$
+- o  [%            <Plug>(MatchitOperationMultiBackward)
+- x  [%            <Plug>(MatchitVisualMultiBackward)
+- n  [%            <Plug>(MatchitNormalMultiBackward)
+- o  ]%            <Plug>(MatchitOperationMultiForward)
+- x  ]%            <Plug>(MatchitVisualMultiForward)
+- n  ]%            <Plug>(MatchitNormalMultiForward)
+- x  a%            <Plug>(MatchitVisualTextObject)
+- x  ca            <Plug>(coc-codeaction-selected)
+- n  ca          * <Cmd>:Telescope coc code_actions theme=ivy<CR>
+- x  gx            <Plug>NetrwBrowseXVis
+- n  gx            <Plug>NetrwBrowseX
+- o  g%            <Plug>(MatchitOperationBackward)
+- x  g%            <Plug>(MatchitVisualBackward)
+- n  g%            <Plug>(MatchitNormalBackward)
+- n  gt          * <Cmd>:Telescope coc type_definitions<CR>
+- n  sh          * :call <SNR>3_show_documentation()<CR>
+- n  y<C-G>      & :<C-U>call setreg(v:register, fugitive#Object(@%))<CR>
+- x  <Plug>(coc-git-chunk-outer) * :<C-U>call coc#rpc#request('doKeymap', ['git-chunk-outer'])<CR>
+- o  <Plug>(coc-git-chunk-outer) * :<C-U>call coc#rpc#request('doKeymap', ['git-chunk-outer'])<CR>
+- x  <Plug>(coc-git-chunk-inner) * :<C-U>call coc#rpc#request('doKeymap', ['git-chunk-inner'])<CR>
+- o  <Plug>(coc-git-chunk-inner) * :<C-U>call coc#rpc#request('doKeymap', ['git-chunk-inner'])<CR>
+- n  <Plug>(coc-git-commit) * :<C-U>call coc#rpc#notify('doKeymap', ['git-commit'])<CR>
+- n  <Plug>(coc-git-chunkinfo) * :<C-U>call coc#rpc#notify('doKeymap', ['git-chunkinfo'])<CR>
+- n  <Plug>(coc-git-keepboth) * :<C-U>call coc#rpc#notify('doKeymap', ['git-keepboth'])<CR>
+- n  <Plug>(coc-git-keepincoming) * :<C-U>call coc#rpc#notify('doKeymap', ['git-keepincoming'])<CR>
+- n  <Plug>(coc-git-keepcurrent) * :<C-U>call coc#rpc#notify('doKeymap', ['git-keepcurrent'])<CR>
+- n  <Plug>(coc-git-prevconflict) * :<C-U>call coc#rpc#notify('doKeymap', ['git-prevconflict'])<CR>
+- n  <Plug>(coc-git-nextconflict) * :<C-U>call coc#rpc#notify('doKeymap', ['git-nextconflict'])<CR>
+- n  <Plug>(coc-git-prevchunk) * :<C-U>call coc#rpc#notify('doKeymap', ['git-prevchunk'])<CR>
+- n  <Plug>(coc-git-nextchunk) * :<C-U>call coc#rpc#notify('doKeymap', ['git-nextchunk'])<CR>
+- x  <Plug>NetrwBrowseXVis * :<C-U>call netrw#BrowseXVis()<CR>
+- n  <Plug>NetrwBrowseX * :call netrw#BrowseX(netrw#GX(),netrw#CheckIfRemote(netrw#GX()))<CR>
+- x  <Plug>(MatchitVisualTextObject)   <Plug>(MatchitVisualMultiBackward)o<Plug>(MatchitVisualMultiForward)
+- o  <Plug>(MatchitOperationMultiForward) * :<C-U>call matchit#MultiMatch("W",  "o")<CR>
+- o  <Plug>(MatchitOperationMultiBackward) * :<C-U>call matchit#MultiMatch("bW", "o")<CR>
+- x  <Plug>(MatchitVisualMultiForward) * :<C-U>call matchit#MultiMatch("W",  "n")<CR>m'gv``
+- x  <Plug>(MatchitVisualMultiBackward) * :<C-U>call matchit#MultiMatch("bW", "n")<CR>m'gv``
+- n  <Plug>(MatchitNormalMultiForward) * :<C-U>call matchit#MultiMatch("W",  "n")<CR>
+- n  <Plug>(MatchitNormalMultiBackward) * :<C-U>call matchit#MultiMatch("bW", "n")<CR>
+- o  <Plug>(MatchitOperationBackward) * :<C-U>call matchit#Match_wrapper('',0,'o')<CR>
+- o  <Plug>(MatchitOperationForward) * :<C-U>call matchit#Match_wrapper('',1,'o')<CR>
+- x  <Plug>(MatchitVisualBackward) * :<C-U>call matchit#Match_wrapper('',0,'v')<CR>m'gv``
+- x  <Plug>(MatchitVisualForward) * :<C-U>call matchit#Match_wrapper('',1,'v')<CR>m'gv``
+- n  <Plug>(MatchitNormalBackward) * :<C-U>call matchit#Match_wrapper('',0,'n')<CR>
+- n  <Plug>(MatchitNormalForward) * :<C-U>call matchit#Match_wrapper('',1,'n')<CR>
+- v  <Plug>(calendar) * :<C-U>Calendar<CR>
+- n  <Plug>(calendar) * :<C-U>Calendar<CR>
+- n  <Plug>VimwikiMakeTomorrowDiaryNote & :<C-U>call vimwiki#diary#make_note(v:count, 0, vimwiki#diary#diary_date_link(localtime() + 60*60*24))<CR>
+- n  <Plug>VimwikiMakeYesterdayDiaryNote & :<C-U>call vimwiki#diary#make_note(v:count, 0, vimwiki#diary#diary_date_link(localtime() - 60*60*24))<CR>
+- n  <Plug>VimwikiTabMakeDiaryNote & :<C-U>call vimwiki#diary#make_note(v:count, 1)<CR>
+- n  <Plug>VimwikiMakeDiaryNote & :<C-U>call vimwiki#diary#make_note(v:count)<CR>
+- n  <Plug>VimwikiDiaryGenerateLinks & :VimwikiDiaryGenerateLinks<CR>
+- n  <Plug>VimwikiDiaryIndex & :<C-U>call vimwiki#diary#goto_diary_index(v:count)<CR>
+- n  <Plug>VimwikiUISelect & :VimwikiUISelect<CR>
+- n  <Plug>VimwikiTabIndex & :<C-U>call vimwiki#base#goto_index(v:count, 1)<CR>
+- n  <Plug>VimwikiIndex & :<C-U>call vimwiki#base#goto_index(v:count)<CR>
+- n  <Plug>NERDCommenterAltDelims * :call <SNR>64_SwitchToAlternativeDelimiters(1)<CR>
+- x  <Plug>NERDCommenterUncomment * :call NERDComment("x", "Uncomment")<CR>
+- n  <Plug>NERDCommenterUncomment * :call NERDComment("n", "Uncomment")<CR>
+- x  <Plug>NERDCommenterAlignBoth * :call NERDComment("x", "AlignBoth")<CR>
+- n  <Plug>NERDCommenterAlignBoth * :call NERDComment("n", "AlignBoth")<CR>
+- x  <Plug>NERDCommenterAlignLeft * :call NERDComment("x", "AlignLeft")<CR>
+- n  <Plug>NERDCommenterAlignLeft * :call NERDComment("n", "AlignLeft")<CR>
+- n  <Plug>NERDCommenterAppend * :call NERDComment("n", "Append")<CR>
+- x  <Plug>NERDCommenterYank * :call NERDComment("x", "Yank")<CR>
+- n  <Plug>NERDCommenterYank * :call NERDComment("n", "Yank")<CR>
+- x  <Plug>NERDCommenterSexy * :call NERDComment("x", "Sexy")<CR>
+- n  <Plug>NERDCommenterSexy * :call NERDComment("n", "Sexy")<CR>
+- x  <Plug>NERDCommenterInvert * :call NERDComment("x", "Invert")<CR>
+- n  <Plug>NERDCommenterInvert * :call NERDComment("n", "Invert")<CR>
+- n  <Plug>NERDCommenterToEOL * :call NERDComment("n", "ToEOL")<CR>
+- x  <Plug>NERDCommenterNested * :call NERDComment("x", "Nested")<CR>
+- n  <Plug>NERDCommenterNested * :call NERDComment("n", "Nested")<CR>
+- x  <Plug>NERDCommenterMinimal * :call NERDComment("x", "Minimal")<CR>
+- n  <Plug>NERDCommenterMinimal * :call NERDComment("n", "Minimal")<CR>
+- x  <Plug>NERDCommenterToggle * :call NERDComment("x", "Toggle")<CR>
+- n  <Plug>NERDCommenterToggle * :call NERDComment("n", "Toggle")<CR>
+- x  <Plug>NERDCommenterComment * :call NERDComment("x", "Comment")<CR>
+- n  <Plug>NERDCommenterComment * :call NERDComment("n", "Comment")<CR>
+- s  <Del>       * <C-G>"_c
+- s  <BS>        * <C-G>"_c
+- s  <C-Tab>     * <Esc>:call UltiSnips#ListSnippets()<CR>
+- n  <M-@>       * :call ToggleFsi()<CR>
+- n  <M-CR>      * :call SendLineToFsi()<CR>
+- v  <M-CR>      * :call SendSelectionToFsi()<CR><Esc>
+- o  <Plug>(coc-classobj-a) * :<C-U>call CocAction('selectSymbolRange', v:false, '', ['Interface', 'Struct', 'Class'])<CR>
+- o  <Plug>(coc-classobj-i) * :<C-U>call CocAction('selectSymbolRange', v:true, '', ['Interface', 'Struct', 'Class'])<CR>
+- v  <Plug>(coc-classobj-a) * :<C-U>call CocAction('selectSymbolRange', v:false, visualmode(), ['Interface', 'Struct', 'Class'])<CR>
+- v  <Plug>(coc-classobj-i) * :<C-U>call CocAction('selectSymbolRange', v:true, visualmode(), ['Interface', 'Struct', 'Class'])<CR>
+- o  <Plug>(coc-funcobj-a) * :<C-U>call CocAction('selectSymbolRange', v:false, '', ['Method', 'Function'])<CR>
+- o  <Plug>(coc-funcobj-i) * :<C-U>call CocAction('selectSymbolRange', v:true, '', ['Method', 'Function'])<CR>
+- v  <Plug>(coc-funcobj-a) * :<C-U>call CocAction('selectSymbolRange', v:false, visualmode(), ['Method', 'Function'])<CR>
+- v  <Plug>(coc-funcobj-i) * :<C-U>call CocAction('selectSymbolRange', v:true, visualmode(), ['Method', 'Function'])<CR>
+- n  <Plug>(coc-cursors-position) * :<C-U>call CocAction('cursorsSelect', bufnr('%'), 'position', 'n')<CR>
+- n  <Plug>(coc-cursors-word) * :<C-U>call CocAction('cursorsSelect', bufnr('%'), 'word', 'n')<CR>
+- v  <Plug>(coc-cursors-range) * :<C-U>call CocAction('cursorsSelect', bufnr('%'), 'range', visualmode())<CR>
+- n  <Plug>(coc-cursors-operator) * :<C-U>set operatorfunc=<SNR>55_CursorRangeFromSelected<CR>g@
+- n  <Plug>(coc-refactor) * :<C-U>call       CocActionAsync('refactor')<CR>
+- n  <Plug>(coc-command-repeat) * :<C-U>call       CocAction('repeatCommand')<CR>
+- n  <Plug>(coc-float-jump) * :<C-U>call       coc#float#jump()<CR>
+- n  <Plug>(coc-float-hide) * :<C-U>call       coc#float#close_all()<CR>
+- n  <Plug>(coc-fix-current) * :<C-U>call       CocActionAsync('doQuickfix')<CR>
+- n  <Plug>(coc-openlink) * :<C-U>call       CocActionAsync('openLink')<CR>
+- n  <Plug>(coc-references-used) * :<C-U>call       CocActionAsync('jumpUsed')<CR>
+- n  <Plug>(coc-references) * :<C-U>call       CocActionAsync('jumpReferences')<CR>
+- n  <Plug>(coc-type-definition) * :<C-U>call       CocActionAsync('jumpTypeDefinition')<CR>
+- n  <Plug>(coc-implementation) * :<C-U>call       CocActionAsync('jumpImplementation')<CR>
+- n  <Plug>(coc-declaration) * :<C-U>call       CocActionAsync('jumpDeclaration')<CR>
+- n  <Plug>(coc-definition) * :<C-U>call       CocActionAsync('jumpDefinition')<CR>
+- n  <Plug>(coc-diagnostic-prev-error) * :<C-U>call       CocActionAsync('diagnosticPrevious', 'error')<CR>
+- n  <Plug>(coc-diagnostic-next-error) * :<C-U>call       CocActionAsync('diagnosticNext',     'error')<CR>
+- n  <Plug>(coc-diagnostic-prev) * :<C-U>call       CocActionAsync('diagnosticPrevious')<CR>
+- n  <Plug>(coc-diagnostic-next) * :<C-U>call       CocActionAsync('diagnosticNext')<CR>
+- n  <Plug>(coc-diagnostic-info) * :<C-U>call       CocActionAsync('diagnosticInfo')<CR>
+- n  <Plug>(coc-format) * :<C-U>call       CocActionAsync('format')<CR>
+- n  <Plug>(coc-format-selected) * :<C-U>set        operatorfunc=<SNR>55_FormatFromSelected<CR>g@
+- n  <Plug>(coc-rename) * :<C-U>call       CocActionAsync('rename')<CR>
+- n  <Plug>(coc-codeaction-cursor) * :<C-U>call       CocActionAsync('codeAction',         'cursor')<CR>
+- n  <Plug>(coc-codeaction-line) * :<C-U>call       CocActionAsync('codeAction',         'line')<CR>
+- n  <Plug>(coc-codeaction) * :<C-U>call       CocActionAsync('codeAction',         '')<CR>
+- n  <Plug>(coc-codeaction-selected) * :<C-U>set        operatorfunc=<SNR>55_CodeActionFromSelected<CR>g@
+- v  <Plug>(coc-codeaction-selected) * :<C-U>call       CocActionAsync('codeAction',         visualmode())<CR>
+- v  <Plug>(coc-format-selected) * :<C-U>call       CocActionAsync('formatSelected',     visualmode())<CR>
+- n  <Plug>(coc-codelens-action) * :<C-U>call       CocActionAsync('codeLensAction')<CR>
+- n  <Plug>(coc-range-select) * :<C-U>call       CocActionAsync('rangeSelect',     '', v:true)<CR>
+- v  <Plug>(coc-range-select-backward) * :<C-U>call       CocActionAsync('rangeSelect',     visualmode(), v:false)<CR>
+- v  <Plug>(coc-range-select) * :<C-U>call       CocActionAsync('rangeSelect',     visualmode(), v:true)<CR>
+-    <Plug>(easymotion-prefix)N   <Plug>(easymotion-N)
+-    <Plug>(easymotion-prefix)n   <Plug>(easymotion-n)
+-    <Plug>(easymotion-prefix)k   <Plug>(easymotion-k)
+-    <Plug>(easymotion-prefix)j   <Plug>(easymotion-j)
+-    <Plug>(easymotion-prefix)gE   <Plug>(easymotion-gE)
+-    <Plug>(easymotion-prefix)ge   <Plug>(easymotion-ge)
+-    <Plug>(easymotion-prefix)E   <Plug>(easymotion-E)
+-    <Plug>(easymotion-prefix)e   <Plug>(easymotion-e)
+-    <Plug>(easymotion-prefix)B   <Plug>(easymotion-B)
+-    <Plug>(easymotion-prefix)b   <Plug>(easymotion-b)
+-    <Plug>(easymotion-prefix)W   <Plug>(easymotion-W)
+-    <Plug>(easymotion-prefix)w   <Plug>(easymotion-w)
+-    <Plug>(easymotion-prefix)T   <Plug>(easymotion-T)
+-    <Plug>(easymotion-prefix)t   <Plug>(easymotion-t)
+-    <Plug>(easymotion-prefix)s   <Plug>(easymotion-s)
+-    <Plug>(easymotion-prefix)F   <Plug>(easymotion-F)
+-    <Plug>(easymotion-prefix)f   <Plug>(easymotion-f)
+- x  <Plug>(easymotion-activate) * :<C-U>call EasyMotion#activate(1)<CR>
+- nos<Plug>(easymotion-activate) * :<C-U>call EasyMotion#activate(0)<CR>
+-    <Plug>(easymotion-dotrepeat) * :<C-U>call EasyMotion#DotRepeat()<CR>
+- x  <Plug>(easymotion-repeat) * <Esc>:<C-U>call EasyMotion#Repeat(1)<CR>
+- nos<Plug>(easymotion-repeat) * :<C-U>call EasyMotion#Repeat(0)<CR>
+- x  <Plug>(easymotion-prev) * :<C-U>call EasyMotion#NextPrevious(1,1)<CR>
+- nos<Plug>(easymotion-prev) * :<C-U>call EasyMotion#NextPrevious(0,1)<CR>
+- x  <Plug>(easymotion-next) * :<C-U>call EasyMotion#NextPrevious(1,0)<CR>
+- nos<Plug>(easymotion-next) * :<C-U>call EasyMotion#NextPrevious(0,0)<CR>
+- x  <Plug>(easymotion-wl) * <Esc>:<C-U>call EasyMotion#WBL(1,0)<CR>
+- nos<Plug>(easymotion-wl) * :<C-U>call EasyMotion#WBL(0,0)<CR>
+- x  <Plug>(easymotion-lineforward) * <Esc>:<C-U>call EasyMotion#LineAnywhere(1,0)<CR>
+- nos<Plug>(easymotion-lineforward) * :<C-U>call EasyMotion#LineAnywhere(0,0)<CR>
+- x  <Plug>(easymotion-lineanywhere) * <Esc>:<C-U>call EasyMotion#LineAnywhere(1,2)<CR>
+- nos<Plug>(easymotion-lineanywhere) * :<C-U>call EasyMotion#LineAnywhere(0,2)<CR>
+- x  <Plug>(easymotion-bd-wl) * <Esc>:<C-U>call EasyMotion#WBL(1,2)<CR>
+- nos<Plug>(easymotion-bd-wl) * :<C-U>call EasyMotion#WBL(0,2)<CR>
+- x  <Plug>(easymotion-linebackward) * <Esc>:<C-U>call EasyMotion#LineAnywhere(1,1)<CR>
+- nos<Plug>(easymotion-linebackward) * :<C-U>call EasyMotion#LineAnywhere(0,1)<CR>
+- x  <Plug>(easymotion-bl) * <Esc>:<C-U>call EasyMotion#WBL(1,1)<CR>
+- nos<Plug>(easymotion-bl) * :<C-U>call EasyMotion#WBL(0,1)<CR>
+- x  <Plug>(easymotion-el) * <Esc>:<C-U>call EasyMotion#EL(1,0)<CR>
+- nos<Plug>(easymotion-el) * :<C-U>call EasyMotion#EL(0,0)<CR>
+- x  <Plug>(easymotion-gel) * <Esc>:<C-U>call EasyMotion#EL(1,1)<CR>
+- nos<Plug>(easymotion-gel) * :<C-U>call EasyMotion#EL(0,1)<CR>
+- x  <Plug>(easymotion-bd-el) * <Esc>:<C-U>call EasyMotion#EL(1,2)<CR>
+- nos<Plug>(easymotion-bd-el) * :<C-U>call EasyMotion#EL(0,2)<CR>
+- x  <Plug>(easymotion-jumptoanywhere) * <Esc>:<C-U>call EasyMotion#JumpToAnywhere(1,2)<CR>
+- nos<Plug>(easymotion-jumptoanywhere) * :<C-U>call EasyMotion#JumpToAnywhere(0,2)<CR>
+- x  <Plug>(easymotion-vim-n) * <Esc>:<C-U>call EasyMotion#Search(1,0,1)<CR>
+- nos<Plug>(easymotion-vim-n) * :<C-U>call EasyMotion#Search(0,0,1)<CR>
+- x  <Plug>(easymotion-n) * <Esc>:<C-U>call EasyMotion#Search(1,0,0)<CR>
+- nos<Plug>(easymotion-n) * :<C-U>call EasyMotion#Search(0,0,0)<CR>
+- x  <Plug>(easymotion-bd-n) * <Esc>:<C-U>call EasyMotion#Search(1,2,0)<CR>
+- nos<Plug>(easymotion-bd-n) * :<C-U>call EasyMotion#Search(0,2,0)<CR>
+- x  <Plug>(easymotion-vim-N) * <Esc>:<C-U>call EasyMotion#Search(1,1,1)<CR>
+- nos<Plug>(easymotion-vim-N) * :<C-U>call EasyMotion#Search(0,1,1)<CR>
+- x  <Plug>(easymotion-N) * <Esc>:<C-U>call EasyMotion#Search(1,1,0)<CR>
+- nos<Plug>(easymotion-N) * :<C-U>call EasyMotion#Search(0,1,0)<CR>
+- x  <Plug>(easymotion-eol-j) * <Esc>:<C-U>call EasyMotion#Eol(1,0)<CR>
+- nos<Plug>(easymotion-eol-j) * :<C-U>call EasyMotion#Eol(0,0)<CR>
+- x  <Plug>(easymotion-sol-k) * <Esc>:<C-U>call EasyMotion#Sol(1,1)<CR>
+- nos<Plug>(easymotion-sol-k) * :<C-U>call EasyMotion#Sol(0,1)<CR>
+- x  <Plug>(easymotion-sol-j) * <Esc>:<C-U>call EasyMotion#Sol(1,0)<CR>
+- nos<Plug>(easymotion-sol-j) * :<C-U>call EasyMotion#Sol(0,0)<CR>
+- x  <Plug>(easymotion-k) * <Esc>:<C-U>call EasyMotion#JK(1,1)<CR>
+- nos<Plug>(easymotion-k) * :<C-U>call EasyMotion#JK(0,1)<CR>
+- x  <Plug>(easymotion-j) * <Esc>:<C-U>call EasyMotion#JK(1,0)<CR>
+- nos<Plug>(easymotion-j) * :<C-U>call EasyMotion#JK(0,0)<CR>
+- x  <Plug>(easymotion-bd-jk) * <Esc>:<C-U>call EasyMotion#JK(1,2)<CR>
+- nos<Plug>(easymotion-bd-jk) * :<C-U>call EasyMotion#JK(0,2)<CR>
+- x  <Plug>(easymotion-eol-bd-jk) * <Esc>:<C-U>call EasyMotion#Eol(1,2)<CR>
+- nos<Plug>(easymotion-eol-bd-jk) * :<C-U>call EasyMotion#Eol(0,2)<CR>
+- x  <Plug>(easymotion-sol-bd-jk) * <Esc>:<C-U>call EasyMotion#Sol(1,2)<CR>
+- nos<Plug>(easymotion-sol-bd-jk) * :<C-U>call EasyMotion#Sol(0,2)<CR>
+- x  <Plug>(easymotion-eol-k) * <Esc>:<C-U>call EasyMotion#Eol(1,1)<CR>
+- nos<Plug>(easymotion-eol-k) * :<C-U>call EasyMotion#Eol(0,1)<CR>
+- x  <Plug>(easymotion-iskeyword-ge) * <Esc>:<C-U>call EasyMotion#EK(1,1)<CR>
+- nos<Plug>(easymotion-iskeyword-ge) * :<C-U>call EasyMotion#EK(0,1)<CR>
+- x  <Plug>(easymotion-w) * <Esc>:<C-U>call EasyMotion#WB(1,0)<CR>
+- nos<Plug>(easymotion-w) * :<C-U>call EasyMotion#WB(0,0)<CR>
+- x  <Plug>(easymotion-bd-W) * <Esc>:<C-U>call EasyMotion#WBW(1,2)<CR>
+- nos<Plug>(easymotion-bd-W) * :<C-U>call EasyMotion#WBW(0,2)<CR>
+- x  <Plug>(easymotion-iskeyword-w) * <Esc>:<C-U>call EasyMotion#WBK(1,0)<CR>
+- nos<Plug>(easymotion-iskeyword-w) * :<C-U>call EasyMotion#WBK(0,0)<CR>
+- x  <Plug>(easymotion-gE) * <Esc>:<C-U>call EasyMotion#EW(1,1)<CR>
+- nos<Plug>(easymotion-gE) * :<C-U>call EasyMotion#EW(0,1)<CR>
+- x  <Plug>(easymotion-e) * <Esc>:<C-U>call EasyMotion#E(1,0)<CR>
+- nos<Plug>(easymotion-e) * :<C-U>call EasyMotion#E(0,0)<CR>
+- x  <Plug>(easymotion-bd-E) * <Esc>:<C-U>call EasyMotion#EW(1,2)<CR>
+- nos<Plug>(easymotion-bd-E) * :<C-U>call EasyMotion#EW(0,2)<CR>
+- x  <Plug>(easymotion-iskeyword-e) * <Esc>:<C-U>call EasyMotion#EK(1,0)<CR>
+- nos<Plug>(easymotion-iskeyword-e) * :<C-U>call EasyMotion#EK(0,0)<CR>
+- x  <Plug>(easymotion-b) * <Esc>:<C-U>call EasyMotion#WB(1,1)<CR>
+- nos<Plug>(easymotion-b) * :<C-U>call EasyMotion#WB(0,1)<CR>
+- x  <Plug>(easymotion-iskeyword-b) * <Esc>:<C-U>call EasyMotion#WBK(1,1)<CR>
+- nos<Plug>(easymotion-iskeyword-b) * :<C-U>call EasyMotion#WBK(0,1)<CR>
+- x  <Plug>(easymotion-iskeyword-bd-w) * <Esc>:<C-U>call EasyMotion#WBK(1,2)<CR>
+- nos<Plug>(easymotion-iskeyword-bd-w) * :<C-U>call EasyMotion#WBK(0,2)<CR>
+- x  <Plug>(easymotion-W) * <Esc>:<C-U>call EasyMotion#WBW(1,0)<CR>
+- nos<Plug>(easymotion-W) * :<C-U>call EasyMotion#WBW(0,0)<CR>
+- x  <Plug>(easymotion-bd-w) * <Esc>:<C-U>call EasyMotion#WB(1,2)<CR>
+- nos<Plug>(easymotion-bd-w) * :<C-U>call EasyMotion#WB(0,2)<CR>
+- x  <Plug>(easymotion-iskeyword-bd-e) * <Esc>:<C-U>call EasyMotion#EK(1,2)<CR>
+- nos<Plug>(easymotion-iskeyword-bd-e) * :<C-U>call EasyMotion#EK(0,2)<CR>
+- x  <Plug>(easymotion-ge) * <Esc>:<C-U>call EasyMotion#E(1,1)<CR>
+- nos<Plug>(easymotion-ge) * :<C-U>call EasyMotion#E(0,1)<CR>
+- x  <Plug>(easymotion-E) * <Esc>:<C-U>call EasyMotion#EW(1,0)<CR>
+- nos<Plug>(easymotion-E) * :<C-U>call EasyMotion#EW(0,0)<CR>
+- x  <Plug>(easymotion-bd-e) * <Esc>:<C-U>call EasyMotion#E(1,2)<CR>
+- nos<Plug>(easymotion-bd-e) * :<C-U>call EasyMotion#E(0,2)<CR>
+- x  <Plug>(easymotion-B) * <Esc>:<C-U>call EasyMotion#WBW(1,1)<CR>
+- nos<Plug>(easymotion-B) * :<C-U>call EasyMotion#WBW(0,1)<CR>
+- n  <Plug>(easymotion-overwin-w) * :<C-U>call EasyMotion#overwin#w()<CR>
+- n  <Plug>(easymotion-overwin-line) * :<C-U>call EasyMotion#overwin#line()<CR>
+- n  <Plug>(easymotion-overwin-f2) * :<C-U>call EasyMotion#OverwinF(2)<CR>
+- n  <Plug>(easymotion-overwin-f) * :<C-U>call EasyMotion#OverwinF(1)<CR>
+- x  <Plug>(easymotion-Tln) * <Esc>:<C-U>call EasyMotion#TL(-1,1,1)<CR>
+- nos<Plug>(easymotion-Tln) * :<C-U>call EasyMotion#TL(-1,0,1)<CR>
+- x  <Plug>(easymotion-t2) * <Esc>:<C-U>call EasyMotion#T(2,1,0)<CR>
+- nos<Plug>(easymotion-t2) * :<C-U>call EasyMotion#T(2,0,0)<CR>
+- x  <Plug>(easymotion-t) * <Esc>:<C-U>call EasyMotion#T(1,1,0)<CR>
+- nos<Plug>(easymotion-t) * :<C-U>call EasyMotion#T(1,0,0)<CR>
+- x  <Plug>(easymotion-s) * <Esc>:<C-U>call EasyMotion#S(1,1,2)<CR>
+- nos<Plug>(easymotion-s) * :<C-U>call EasyMotion#S(1,0,2)<CR>
+- x  <Plug>(easymotion-tn) * <Esc>:<C-U>call EasyMotion#T(-1,1,0)<CR>
+- nos<Plug>(easymotion-tn) * :<C-U>call EasyMotion#T(-1,0,0)<CR>
+- x  <Plug>(easymotion-bd-t2) * <Esc>:<C-U>call EasyMotion#T(2,1,2)<CR>
+- nos<Plug>(easymotion-bd-t2) * :<C-U>call EasyMotion#T(2,0,2)<CR>
+- x  <Plug>(easymotion-tl) * <Esc>:<C-U>call EasyMotion#TL(1,1,0)<CR>
+- nos<Plug>(easymotion-tl) * :<C-U>call EasyMotion#TL(1,0,0)<CR>
+- x  <Plug>(easymotion-bd-tn) * <Esc>:<C-U>call EasyMotion#T(-1,1,2)<CR>
+- nos<Plug>(easymotion-bd-tn) * :<C-U>call EasyMotion#T(-1,0,2)<CR>
+- x  <Plug>(easymotion-fn) * <Esc>:<C-U>call EasyMotion#S(-1,1,0)<CR>
+- nos<Plug>(easymotion-fn) * :<C-U>call EasyMotion#S(-1,0,0)<CR>
+- x  <Plug>(easymotion-bd-tl) * <Esc>:<C-U>call EasyMotion#TL(1,1,2)<CR>
+- nos<Plug>(easymotion-bd-tl) * :<C-U>call EasyMotion#TL(1,0,2)<CR>
+- x  <Plug>(easymotion-fl) * <Esc>:<C-U>call EasyMotion#SL(1,1,0)<CR>
+- nos<Plug>(easymotion-fl) * :<C-U>call EasyMotion#SL(1,0,0)<CR>
+- x  <Plug>(easymotion-bd-tl2) * <Esc>:<C-U>call EasyMotion#TL(2,1,2)<CR>
+- nos<Plug>(easymotion-bd-tl2) * :<C-U>call EasyMotion#TL(2,0,2)<CR>
+- x  <Plug>(easymotion-bd-fn) * <Esc>:<C-U>call EasyMotion#S(-1,1,2)<CR>
+- nos<Plug>(easymotion-bd-fn) * :<C-U>call EasyMotion#S(-1,0,2)<CR>
+- x  <Plug>(easymotion-f) * <Esc>:<C-U>call EasyMotion#S(1,1,0)<CR>
+- nos<Plug>(easymotion-f) * :<C-U>call EasyMotion#S(1,0,0)<CR>
+- x  <Plug>(easymotion-bd-fl) * <Esc>:<C-U>call EasyMotion#SL(1,1,2)<CR>
+- nos<Plug>(easymotion-bd-fl) * :<C-U>call EasyMotion#SL(1,0,2)<CR>
+- x  <Plug>(easymotion-Fl2) * <Esc>:<C-U>call EasyMotion#SL(2,1,1)<CR>
+- nos<Plug>(easymotion-Fl2) * :<C-U>call EasyMotion#SL(2,0,1)<CR>
+- x  <Plug>(easymotion-tl2) * <Esc>:<C-U>call EasyMotion#TL(2,1,0)<CR>
+- nos<Plug>(easymotion-tl2) * :<C-U>call EasyMotion#TL(2,0,0)<CR>
+- x  <Plug>(easymotion-f2) * <Esc>:<C-U>call EasyMotion#S(2,1,0)<CR>
+- nos<Plug>(easymotion-f2) * :<C-U>call EasyMotion#S(2,0,0)<CR>
+- x  <Plug>(easymotion-Fln) * <Esc>:<C-U>call EasyMotion#SL(-1,1,1)<CR>
+- nos<Plug>(easymotion-Fln) * :<C-U>call EasyMotion#SL(-1,0,1)<CR>
+- x  <Plug>(easymotion-sln) * <Esc>:<C-U>call EasyMotion#SL(-1,1,2)<CR>
+- nos<Plug>(easymotion-sln) * :<C-U>call EasyMotion#SL(-1,0,2)<CR>
+- x  <Plug>(easymotion-tln) * <Esc>:<C-U>call EasyMotion#TL(-1,1,0)<CR>
+- nos<Plug>(easymotion-tln) * :<C-U>call EasyMotion#TL(-1,0,0)<CR>
+- x  <Plug>(easymotion-fl2) * <Esc>:<C-U>call EasyMotion#SL(2,1,0)<CR>
+- nos<Plug>(easymotion-fl2) * :<C-U>call EasyMotion#SL(2,0,0)<CR>
+- x  <Plug>(easymotion-bd-fl2) * <Esc>:<C-U>call EasyMotion#SL(2,1,2)<CR>
+- nos<Plug>(easymotion-bd-fl2) * :<C-U>call EasyMotion#SL(2,0,2)<CR>
+- x  <Plug>(easymotion-T2) * <Esc>:<C-U>call EasyMotion#T(2,1,1)<CR>
+- nos<Plug>(easymotion-T2) * :<C-U>call EasyMotion#T(2,0,1)<CR>
+- x  <Plug>(easymotion-bd-tln) * <Esc>:<C-U>call EasyMotion#TL(-1,1,2)<CR>
+- nos<Plug>(easymotion-bd-tln) * :<C-U>call EasyMotion#TL(-1,0,2)<CR>
+- x  <Plug>(easymotion-T) * <Esc>:<C-U>call EasyMotion#T(1,1,1)<CR>
+- nos<Plug>(easymotion-T) * :<C-U>call EasyMotion#T(1,0,1)<CR>
+- x  <Plug>(easymotion-bd-t) * <Esc>:<C-U>call EasyMotion#T(1,1,2)<CR>
+- nos<Plug>(easymotion-bd-t) * :<C-U>call EasyMotion#T(1,0,2)<CR>
+- x  <Plug>(easymotion-Tn) * <Esc>:<C-U>call EasyMotion#T(-1,1,1)<CR>
+- nos<Plug>(easymotion-Tn) * :<C-U>call EasyMotion#T(-1,0,1)<CR>
+- x  <Plug>(easymotion-s2) * <Esc>:<C-U>call EasyMotion#S(2,1,2)<CR>
+- nos<Plug>(easymotion-s2) * :<C-U>call EasyMotion#S(2,0,2)<CR>
+- x  <Plug>(easymotion-Tl) * <Esc>:<C-U>call EasyMotion#TL(1,1,1)<CR>
+- nos<Plug>(easymotion-Tl) * :<C-U>call EasyMotion#TL(1,0,1)<CR>
+- x  <Plug>(easymotion-sn) * <Esc>:<C-U>call EasyMotion#S(-1,1,2)<CR>
+- nos<Plug>(easymotion-sn) * :<C-U>call EasyMotion#S(-1,0,2)<CR>
+- x  <Plug>(easymotion-Fn) * <Esc>:<C-U>call EasyMotion#S(-1,1,1)<CR>
+- nos<Plug>(easymotion-Fn) * :<C-U>call EasyMotion#S(-1,0,1)<CR>
+- x  <Plug>(easymotion-sl) * <Esc>:<C-U>call EasyMotion#SL(1,1,2)<CR>
+- nos<Plug>(easymotion-sl) * :<C-U>call EasyMotion#SL(1,0,2)<CR>
+- x  <Plug>(easymotion-Fl) * <Esc>:<C-U>call EasyMotion#SL(1,1,1)<CR>
+- nos<Plug>(easymotion-Fl) * :<C-U>call EasyMotion#SL(1,0,1)<CR>
+- x  <Plug>(easymotion-sl2) * <Esc>:<C-U>call EasyMotion#SL(2,1,2)<CR>
+- nos<Plug>(easymotion-sl2) * :<C-U>call EasyMotion#SL(2,0,2)<CR>
+- x  <Plug>(easymotion-bd-fln) * <Esc>:<C-U>call EasyMotion#SL(-1,1,2)<CR>
+- nos<Plug>(easymotion-bd-fln) * :<C-U>call EasyMotion#SL(-1,0,2)<CR>
+- x  <Plug>(easymotion-F) * <Esc>:<C-U>call EasyMotion#S(1,1,1)<CR>
+- nos<Plug>(easymotion-F) * :<C-U>call EasyMotion#S(1,0,1)<CR>
+- x  <Plug>(easymotion-bd-f) * <Esc>:<C-U>call EasyMotion#S(1,1,2)<CR>
+- nos<Plug>(easymotion-bd-f) * :<C-U>call EasyMotion#S(1,0,2)<CR>
+- x  <Plug>(easymotion-F2) * <Esc>:<C-U>call EasyMotion#S(2,1,1)<CR>
+- nos<Plug>(easymotion-F2) * :<C-U>call EasyMotion#S(2,0,1)<CR>
+- x  <Plug>(easymotion-bd-f2) * <Esc>:<C-U>call EasyMotion#S(2,1,2)<CR>
+- nos<Plug>(easymotion-bd-f2) * :<C-U>call EasyMotion#S(2,0,2)<CR>
+- x  <Plug>(easymotion-Tl2) * <Esc>:<C-U>call EasyMotion#TL(2,1,1)<CR>
+- nos<Plug>(easymotion-Tl2) * :<C-U>call EasyMotion#TL(2,0,1)<CR>
+- x  <Plug>(easymotion-fln) * <Esc>:<C-U>call EasyMotion#SL(-1,1,0)<CR>
+- nos<Plug>(easymotion-fln) * :<C-U>call EasyMotion#SL(-1,0,0)<CR>
+- n  <Plug>PlenaryTestFile * :lua require('plenary.test_harness').test_directory(vim.fn.expand("%:p"))<CR>
+- n  <Plug>RestoreWinPosn   :call RestoreWinPosn()<CR>
+- n  <Plug>SaveWinPosn   :call SaveWinPosn()<CR>
+- n  <F5>          <Plug>(lcn-menu)
