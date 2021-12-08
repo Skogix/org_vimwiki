@@ -1,6 +1,7 @@
 = skogix =
-= current | -personal +ACTIVE =
-= dump | +dump +PENDING =
+== todo | +PRIORITY +PENDING -personal or +OVERDUE -personal ==
+== current | -personal +ACTIVE ==
+== dump | +dump +PENDING ==
 
 ----
 

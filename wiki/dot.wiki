@@ -1,8 +1,9 @@
 = dot =
-== todo | +dot ==
+== todo | +dot +PENDING ==
 * [ ] tmux  #0eb4dfde
     * [ ] tmux/vim copy  #75c92ca1
 * [ ] go over dotfiles  #514ea6a1
+    * [ ] .zshrc-personal !!!  #d448070e
     * [ ] .config/i3/picom.conf  #78291566
     * [ ] .config/i3/config  #39619039
     * [ ] .bashrc  #d67ab426
@@ -14,8 +15,6 @@
     * [ ] .config/alacritty/alacritty.yml  #10ac4862
     * [ ] .config/i3/config-polybar  #30de1aef
     * [ ] .zshrc  #c8659101
-    * [ ] .zshrc-personal  #d448070e
-    * [ ] .config/nvim/init.vim  #e813d31c
 * [ ] dot  #ddf99d2c
     * [ ] install openshot  #3c0fa8c8
     * [ ] install pandoc  #a5e5da1c
@@ -24,7 +23,6 @@
     * [ ] install obs  #af8c01e2
     * [ ] screenshot folder  #96ce1dfd
     * [ ] install taskwarrior  #8a033d51
-    * [ ] install taskwiki  #3875bcbd
     * [ ] steam  #fd476983
         * [ ] install steam steam-native-runtime  #3b6f0514
         * [ ] https://www.gloriouseggroll.tv/how-to-get-out-of-wine-dependency-hell/  #2e57f933

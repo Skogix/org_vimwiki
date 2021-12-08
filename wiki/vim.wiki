@@ -1,9 +1,6 @@
 = vim =
-
 - [[http://jmcphers.github.io/articles/efficient-editing.html|efficient-editing]]
 === todo | +vim +PENDING ===
 * [ ] telescope jumplist  #59073ee5
 * [ ] tmux/vim copy  #ca814a77
 * [ ] telescope buffers  #cfc3927a
-* [ ] <leader>tx to telescope  #bc9f9c66
-* [S] cleanup  #9011f082
