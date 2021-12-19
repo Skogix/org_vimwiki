@@ -1,17 +1,30 @@
 = personal =
 == prio | +PRIORITY +PENDING +personal == 
+* [ ] maila norge !! (2021-12-08)  #6c1eb005
+* [ ] maila arbetsgivarintyg !!  #ede1b929
 * [ ] beställ laddare till datorn !  #75d0d37a
+* [ ] boka resa till sala !  #79c682e8
 == idag | due:today ==
-* [ ] okq8 anställningsbevis (2021-12-08)  #2679eaa2
-* [ ] maila norge (2021-12-08)  #6c1eb005
-* [ ] uppdatera netwic (2021-12-08)  #c8c127e5
 == imorgon | due:tomorrow ==
-=== all | +personal ===
-* [ ] okq8 anställningsbevis (2021-12-08)  #2679eaa2
-* [ ] maila norge (2021-12-08)  #6c1eb005
-* [ ] uppdatera netwic (2021-12-08)  #c8c127e5
+* [ ] fyll i akassa timrapport (2021-12-20)  #6b86802b
+=== all | +personal +PENDING ===
+* [ ] maila norge !! (2021-12-08)  #6c1eb005
 * [ ] fyll i seko timrapport (2021-12-13)  #8831630a
+* [ ] skicka sms om underskrift (2021-12-13)  #834550a6
+* [ ] veckostäd (2021-12-17)  #1dbbf14c
+    * [ ] kök (2021-12-17)  #fb6334a9
+        * [ ] disk (2021-12-17)  #ebe4316b
+        * [ ] spis (2021-12-17)  #de74da08
+        * [ ] bord (2021-12-17)  #2a8178df
+    * [ ] hall (2021-12-17)  #43e63519
+        * [ ] datorbord (2021-12-17)  #08247876
+        * [ ] toalett (2021-12-17)  #389e77e5
+    * [ ] sovrum (2021-12-17)  #60ca650b
+        * [ ] kläder (2021-12-17)  #89f2694e
+* [ ] fyll i akassa timrapport (2021-12-20)  #6b86802b
+* [ ] maila arbetsgivarintyg !!  #ede1b929
 * [ ] beställ laddare till datorn !  #75d0d37a
+* [ ] boka resa till sala !  #79c682e8
 * [ ] sök jobb ams  #6b418d75
     * [ ] jobbsök 1  #5b99e393
     * [ ] jobbsök 2  #5d901be7
@@ -19,18 +32,8 @@
     * [ ] jobbsök 4  #c7234a2f
     * [ ] jobbsök 5  #44e196af
     * [ ] jobbsök 6  #7ece7f40
-* [ ] veckostäd  #1dbbf14c
-    * [ ] kök  #fb6334a9
-        * [ ] disk  #ebe4316b
-        * [ ] bord  #2a8178df
-        * [ ] spis  #de74da08
-    * [ ] hall  #43e63519
-        * [ ] datorbord  #08247876
-        * [ ] toalett  #389e77e5
-    * [ ] sovrum  #60ca650b
-        * [ ] kläder  #89f2694e
 === mån | due:monday===
-* [ ] fyll i seko timrapport (2021-12-13)  #8831630a
+* [ ] fyll i akassa timrapport (2021-12-20)  #6b86802b
 === tis | due:tuesday===
 === ons | due:wednesday===
 === tors | due:tuesday===

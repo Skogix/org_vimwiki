@@ -2,7 +2,14 @@
 == todo | +PRIORITY +PENDING -personal or +OVERDUE -personal ==
 == current | -personal +ACTIVE ==
 == dump | +dump +PENDING ==
-
+* [ ] speed reading linux  #9dc5f74e
+* [ ] epub download  #2a012ac0
+* [ ] yay anime-downloader-git  #430af358
+* [ ] aphantasia/SDAM  #8eaa5749
+* [ ] yay grive  #8c0fa0c5
+* [ ] https://libgen.fun  #1f1a3aaa
+* [ ] https://forcoder.su/  #52cf5f65
+* [ ] install fuseiso  #cd031fdc
 ----
 
 = Generated Links =

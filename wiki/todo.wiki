@@ -39,6 +39,16 @@
     * [ ] install taskwiki  #142fc375
 * [ ] setup starre-layout  #5b64e4d3
 * [ ] check picom for new windows opacity  #cdee8d31
+* [ ] install tranmission-gtk  #edbd5ed6
+* [ ] install nethogs  #47ab7544
+* [ ] speed reading linux  #9dc5f74e
+* [ ] epub download  #2a012ac0
+* [ ] aphantasia  #8eaa5749
+* [ ] yay anime-downloader-git  #430af358
+* [ ] install fuseiso  #cd031fdc
+* [ ] yay grive  #8c0fa0c5
+* [ ] https://libgen.fun  #1f1a3aaa
+* [ ] https://forcoder.su/  #52cf5f65
 = done | -personal +COMPLETED =
 * [X] setup taskwiki  #fb3bc936
 * [X] setup reoccuring tasks  #64dd0fce
@@ -50,5 +60,6 @@
 * [X] test akut !!!  #1d48264a
 * [X] task terminal integration for vimwiki?  #4a2efd42
 * [X] install taskwiki  #3875bcbd
+* [X] anime-downloader  #5c6b40d7
 === recur | +PARENT ===
 * [R] fyll i seko timrapport (2021-12-13)  #b33f4f0f
