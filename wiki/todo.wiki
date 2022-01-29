@@ -1,7 +1,7 @@
-= all | -personal due:today +PENDING =
+= today | -personal due:today +PENDING =
 === all | -personal +PENDING ===
+* [ ] Test  #c5563ec7
 * [ ] vim.calendar  #1d5aadb6
-* [ ] maybe switch to vimwiki.md?  #24e1cc35
 * [ ] tmux/vim copy  #ca814a77
 * [ ] telescope jumplist  #59073ee5
 * [ ] telescope buffers  #cfc3927a
@@ -41,9 +41,6 @@
 * [ ] check picom for new windows opacity  #cdee8d31
 * [ ] install tranmission-gtk  #edbd5ed6
 * [ ] install nethogs  #47ab7544
-* [ ] speed reading linux  #9dc5f74e
-* [ ] epub download  #2a012ac0
-* [ ] aphantasia  #8eaa5749
 * [ ] yay anime-downloader-git  #430af358
 * [ ] install fuseiso  #cd031fdc
 * [ ] yay grive  #8c0fa0c5
@@ -61,5 +58,7 @@
 * [X] task terminal integration for vimwiki?  #4a2efd42
 * [X] install taskwiki  #3875bcbd
 * [X] anime-downloader  #5c6b40d7
+* [X] epub download  #2a012ac0
+* [X] maybe switch to vimwiki.md?  #24e1cc35
 === recur | +PARENT ===
 * [R] fyll i seko timrapport (2021-12-13)  #b33f4f0f

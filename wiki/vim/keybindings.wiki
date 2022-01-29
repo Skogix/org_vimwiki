@@ -1,4 +1,4 @@
-= vim keybindings dump =
+=== vim keybindings dump ===
 - s  <C-H>       * <C-G>"_c
 - n  <C-H>       * :TmuxNavigateLeft<CR>
 - s  <Tab>       * <Esc>:call UltiSnips#ExpandSnippet()<CR>
@@ -30,7 +30,7 @@
 -    <Space>rwp    <Plug>RestoreWinPosn
 -    <Space>swp    <Plug>SaveWinPosn
 - n  <Space>wx     :call VimwikiFindIncompleteTasks()<CR>
-- n  <Space>wa     :call VimwikiFindAllIncompleteTasks()<CR>
+- n  <Space>wa     :call nimwikiFindAllIncompleteTasks()<CR>
 - n  <Space>xx   * <Plug>(lcn-hover)
 - v  <Space>/    * :call NERDComment(0,'toggle')<CR>
 - n  <Space>/    * :call NERDComment(0,'toggle')<CR>

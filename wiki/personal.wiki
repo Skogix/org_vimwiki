@@ -1,12 +1,9 @@
 = personal =
-== prio | +PRIORITY +PENDING +personal == 
+== prio | +PRIORITY +PENDING +personal== 
 * [ ] maila norge !! (2021-12-08)  #6c1eb005
-* [ ] maila arbetsgivarintyg !!  #ede1b929
 * [ ] beställ laddare till datorn !  #75d0d37a
-* [ ] boka resa till sala !  #79c682e8
 == idag | due:today ==
 == imorgon | due:tomorrow ==
-* [ ] fyll i akassa timrapport (2021-12-20)  #6b86802b
 === all | +personal +PENDING ===
 * [ ] maila norge !! (2021-12-08)  #6c1eb005
 * [ ] fyll i seko timrapport (2021-12-13)  #8831630a
@@ -22,9 +19,9 @@
     * [ ] sovrum (2021-12-17)  #60ca650b
         * [ ] kläder (2021-12-17)  #89f2694e
 * [ ] fyll i akassa timrapport (2021-12-20)  #6b86802b
-* [ ] maila arbetsgivarintyg !!  #ede1b929
+* [ ] fyll i seko timrapport (2022-01-24)  #1726be31
+* [ ] fyll i seko timrapport (2022-01-31)  #b8c64ed7
 * [ ] beställ laddare till datorn !  #75d0d37a
-* [ ] boka resa till sala !  #79c682e8
 * [ ] sök jobb ams  #6b418d75
     * [ ] jobbsök 1  #5b99e393
     * [ ] jobbsök 2  #5d901be7
@@ -32,8 +29,10 @@
     * [ ] jobbsök 4  #c7234a2f
     * [ ] jobbsök 5  #44e196af
     * [ ] jobbsök 6  #7ece7f40
+* [ ] speed reading linux  #9dc5f74e
+* [ ] aphantasia/SDAM  #8eaa5749
 === mån | due:monday===
-* [ ] fyll i akassa timrapport (2021-12-20)  #6b86802b
+* [ ] fyll i seko timrapport (2022-01-31)  #b8c64ed7
 === tis | due:tuesday===
 === ons | due:wednesday===
 === tors | due:tuesday===

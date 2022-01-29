@@ -1,0 +1,8 @@
+== Engine | project:Engine ==
+== Resources ==
+- https://en.wikipedia.org/wiki/Entity_component_system
+- https://en.wikipedia.org/wiki/Entity_component_systemo
+- https://www.guru99.com/entity-component-system.html
+- https://austinmorlan.com/posts/entity_component_system/
+- https://medium.com/ingeniouslysimple/entities-components-and-systems-89c31464240d
+- 

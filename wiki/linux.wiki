@@ -2,3 +2,4 @@
 == todo | +linux ==
 * [ ] setup starre-layout  #5b64e4d3
 * [ ] check picom for new windows opacity  #cdee8d31
+* [ ] yay anime-downloader-git  #430af358
