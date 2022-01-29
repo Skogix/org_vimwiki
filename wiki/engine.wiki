@@ -1,7 +1,7 @@
 = Engine | project:Engine =
 * [ ] Test  #c5563ec7
 == ToDo | +todo ==
-* [o] 0.01  #adef532d
+* [X] 0.01  #adef532d
     * [X] Containers/Worlds  #7841be21
     * [X] test  #19d55200
     * [X] Entities  #96a12772
@@ -29,3 +29,17 @@
 - 
 - https://opentk.net/
 - https://github.com/bcarruthers/garnet 
+== Naming conventions ==
+https://gist.github.com/swlaschin/31d5a0a2c4478e82e3ed60d653c0206b
+
+- core domain is at top
+- IO near bottom
+- Main app (composition root/Startup) is always last
+
+1. Common libraries
+2. Domain types
+3. Workflows/use-cases
+4. DTOs
+5. DB/Infrastructure
+6. API interfaces
+7. Composition Root that combines everything and exposes the API.
