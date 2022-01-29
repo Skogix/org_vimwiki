@@ -46,6 +46,14 @@
 * [ ] yay grive  #8c0fa0c5
 * [ ] https://libgen.fun  #1f1a3aaa
 * [ ] https://forcoder.su/  #52cf5f65
+* [ ] Systems  #60b44832
+* [ ] Integration  #ab05ddf4
+* [ ] Entities  #96a12772
+* [ ] Actors  #6cdeae64
+* [ ] Components  #63ce0a07
+* [ ] 0.01  #adef532d
+    * [ ] Containers/Worlds  #7841be21
+    * [ ] a  #559e6e3f
 = done | -personal +COMPLETED =
 * [X] setup taskwiki  #fb3bc936
 * [X] setup reoccuring tasks  #64dd0fce
@@ -60,5 +68,6 @@
 * [X] anime-downloader  #5c6b40d7
 * [X] epub download  #2a012ac0
 * [X] maybe switch to vimwiki.md?  #24e1cc35
+* [X] ECS test  #227475e8
 === recur | +PARENT ===
 * [R] fyll i seko timrapport (2021-12-13)  #b33f4f0f
