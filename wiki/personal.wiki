@@ -1,27 +1,8 @@
 = personal =
 == prio | +PRIORITY +PENDING +personal== 
-* [ ] beställ laddare till datorn !  #75d0d37a
 == idag | due:today +PENDING ==
-* [ ] tvätta (2022-01-30)  #82c9dc2e
 == imorgon | due:tomorrow ==
-* [ ] fyll i seko timrapport (2022-01-31)  #b8c64ed7
-* [ ] ams (2022-01-31)  #38b1c5b5
-* [ ] veckostäd (2022-01-31)  #1dbbf14c
-    * [ ] kök (2022-01-31)  #fb6334a9
-        * [ ] disk (2022-01-31)  #ebe4316b
-        * [ ] bord (2022-01-31)  #2a8178df
-        * [ ] spis (2022-01-31)  #de74da08
-    * [ ] sovrum (2022-01-31)  #60ca650b
-        * [ ] kläder (2022-01-31)  #89f2694e
-    * [ ] hall (2022-01-31)  #43e63519
-        * [ ] datorbord (2022-01-31)  #08247876
-        * [ ] toalett (2022-01-31)  #389e77e5
 === all | +personal +PENDING ===
-* [ ] maila norge (2021-12-08)  #6c1eb005
-* [ ] fyll i seko timrapport (2021-12-13)  #8831630a
-* [ ] skicka sms om underskrift (2021-12-13)  #834550a6
-* [ ] fyll i akassa timrapport (2021-12-20)  #6b86802b
-* [ ] fyll i seko timrapport (2022-01-24)  #1726be31
 * [ ] veckostäd (2022-01-31)  #1dbbf14c
     * [ ] kök (2022-01-31)  #fb6334a9
         * [ ] disk (2022-01-31)  #ebe4316b
@@ -32,28 +13,8 @@
         * [ ] toalett (2022-01-31)  #389e77e5
     * [ ] sovrum (2022-01-31)  #60ca650b
         * [ ] kläder (2022-01-31)  #89f2694e
-* [ ] fyll i seko timrapport (2022-01-31)  #b8c64ed7
-* [ ] beställ laddare till datorn !  #75d0d37a
-* [ ] sök jobb ams  #6b418d75
-    * [ ] jobbsök 1  #5b99e393
-    * [ ] jobbsök 2  #5d901be7
-    * [ ] jobbsök 3  #63014807
-    * [ ] jobbsök 4  #c7234a2f
-    * [ ] jobbsök 5  #44e196af
-    * [ ] jobbsök 6  #7ece7f40
 === mån | due:monday===
-* [ ] fyll i seko timrapport (2022-01-31)  #b8c64ed7
-* [ ] ams (2022-01-31)  #38b1c5b5
-* [ ] veckostäd (2022-01-31)  #1dbbf14c
-    * [ ] kök (2022-01-31)  #fb6334a9
-        * [ ] disk (2022-01-31)  #ebe4316b
-        * [ ] bord (2022-01-31)  #2a8178df
-        * [ ] spis (2022-01-31)  #de74da08
-    * [ ] sovrum (2022-01-31)  #60ca650b
-        * [ ] kläder (2022-01-31)  #89f2694e
-    * [ ] hall (2022-01-31)  #43e63519
-        * [ ] datorbord (2022-01-31)  #08247876
-        * [ ] toalett (2022-01-31)  #389e77e5
+* [X] fyll i seko timrapport (2022-02-14)  #488d6461
 === tis | due:tuesday===
 === ons | due:wednesday===
 === tors | due:tuesday===

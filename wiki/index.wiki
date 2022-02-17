@@ -1,10 +1,8 @@
 = skogix =
 == todo | +PRIORITY +PENDING -personal or +OVERDUE -personal ==
-* [ ] tvätta (2022-01-30)  #82c9dc2e
 == current | -personal +ACTIVE ==
 == dump | +dump +PENDING ==
 ----
-
 = Generated Links =
     - [[dot]]
     - [[index]]

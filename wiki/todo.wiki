@@ -1,10 +1,5 @@
 = today | -personal due:today +PENDING =
 === all | -personal +PENDING ===
-* [ ] Test  #c5563ec7
-* [ ] vim.calendar  #1d5aadb6
-* [ ] tmux/vim copy  #ca814a77
-* [ ] telescope jumplist  #59073ee5
-* [ ] telescope buffers  #cfc3927a
 * [ ] go over dotfiles  #514ea6a1
     * [ ] .config/i3/config  #39619039
     * [ ] .bashrc  #d67ab426
@@ -37,23 +32,6 @@
         * [ ] https://www.gloriouseggroll.tv/how-to-get-out-of-wine-dependency-hell/  #2e57f933
         * [ ] install lutris  #78a9db17
     * [ ] install taskwiki  #142fc375
-* [ ] setup starre-layout  #5b64e4d3
-* [ ] check picom for new windows opacity  #cdee8d31
-* [ ] install tranmission-gtk  #edbd5ed6
-* [ ] install nethogs  #47ab7544
-* [ ] yay anime-downloader-git  #430af358
-* [ ] install fuseiso  #cd031fdc
-* [ ] yay grive  #8c0fa0c5
-* [ ] https://libgen.fun  #1f1a3aaa
-* [ ] https://forcoder.su/  #52cf5f65
-* [ ] Systems  #60b44832
-* [ ] Integration  #ab05ddf4
-* [ ] Entities  #96a12772
-* [ ] Actors  #6cdeae64
-* [ ] Components  #63ce0a07
-* [ ] 0.01  #adef532d
-    * [ ] Containers/Worlds  #7841be21
-    * [ ] a  #559e6e3f
 = done | -personal +COMPLETED =
 * [X] setup taskwiki  #fb3bc936
 * [X] setup reoccuring tasks  #64dd0fce
@@ -69,5 +47,34 @@
 * [X] epub download  #2a012ac0
 * [X] maybe switch to vimwiki.md?  #24e1cc35
 * [X] ECS test  #227475e8
+* [X] seko (2022-01-30)  #d0b60145
+* [X] kivra (2022-01-30)  #2ceb9e29
+* [X] tvätta (2022-01-30)  #82c9dc2e
+* [X] ams (2022-01-31)  #38b1c5b5
+* [X] Test  #c5563ec7
+* [X] vim.calendar  #1d5aadb6
+* [X] telescope jumplist  #59073ee5
+* [X] telescope buffers  #cfc3927a
+* [X] tmux/vim copy  #ca814a77
+* [X] setup starre-layout  #5b64e4d3
+* [X] check picom for new windows opacity  #cdee8d31
+* [X] install nethogs  #47ab7544
+* [X] install tranmission-gtk  #edbd5ed6
+* [X] yay anime-downloader-git  #430af358
+* [X] install fuseiso  #cd031fdc
+* [X] yay grive  #8c0fa0c5
+* [X] https://libgen.fun  #1f1a3aaa
+* [X] https://forcoder.su/  #52cf5f65
+* [X] Components  #63ce0a07
+* [X] Integration  #ab05ddf4
+* [X] Actors  #6cdeae64
+* [X] Systems  #60b44832
+* [X] 0.01  #adef532d
+    * [X] a  #559e6e3f
+    * [X] Containers/Worlds  #7841be21
+    * [X] Entities  #96a12772
+    * [X] test  #19d55200
+* [X] Containers/Worlds  #43a2b0fd
+* [X] Entities  #6f16764c
 === recur | +PARENT ===
 * [R] fyll i seko timrapport (2021-12-13)  #b33f4f0f
